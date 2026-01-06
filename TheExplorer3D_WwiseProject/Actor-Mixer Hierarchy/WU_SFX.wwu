@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60A2CC0A-904E-48FB-A6EF-15C891D558AF}" SchemaVersion="110" RootDocumentID="{57325191-4C4C-4E58-B494-C418638AF5ED}" ParentDocumentID="{57325191-4C4C-4E58-B494-C418638AF5ED}">
+	<AudioObjects>
+		<WorkUnit Name="WU_SFX" ID="{60A2CC0A-904E-48FB-A6EF-15C891D558AF}" OwnerID="{57325191-4C4C-4E58-B494-C418638AF5ED}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SFX" ID="{09387E0D-6217-47B5-ABCB-CA8C5D1420E7}" ShortID="907653204">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{EBA4C8A3-328C-4B2B-B9CA-010C2C9AEFD9}" WorkUnitID="{203FAC4C-312F-42AA-90AD-91F3B2B00A54}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

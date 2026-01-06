@@ -9,6 +9,13 @@
 							<ObjectRef Name="System" ID="{073A4698-9C91-4CA1-AB6C-0F2FA8BDF372}" WorkUnitID="{6AD6CD56-8FB3-4E55-A5DA-690774A8D3DD}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="WU_AMB" ID="{14EF0B3C-220B-4317-9D12-C01E6A1C9A78}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_ENEMIES" ID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_MC" ID="{F81AE21D-8467-4062-93CD-352D03D1B37F}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_SFX" ID="{203FAC4C-312F-42AA-90AD-91F3B2B00A54}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_UI" ID="{52B8D0E7-DCA3-4C6A-BAB0-34C468B8C8A7}" PersistMode="Reference"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

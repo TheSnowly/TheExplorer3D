@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}" SchemaVersion="110" RootDocumentID="{57325191-4C4C-4E58-B494-C418638AF5ED}" ParentDocumentID="{57325191-4C4C-4E58-B494-C418638AF5ED}">
+	<AudioObjects>
+		<WorkUnit Name="WU_UI" ID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}" OwnerID="{57325191-4C4C-4E58-B494-C418638AF5ED}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="UI" ID="{EF1EB388-F505-461D-88D2-FAA7C7F9A419}" ShortID="265749392">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{B09EF835-7D1E-44E7-811B-FB23B72CF37D}" WorkUnitID="{52B8D0E7-DCA3-4C6A-BAB0-34C468B8C8A7}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

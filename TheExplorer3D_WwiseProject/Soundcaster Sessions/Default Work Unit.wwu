@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{98056F35-211A-46AB-9828-13990FE35C6A}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{98056F35-211A-46AB-9828-13990FE35C6A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{98056F35-211A-46AB-9828-13990FE35C6A}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="WU_MC" ID="{D91FEF00-E451-4C46-9DAC-16E028DF2928}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_ENEMIES" ID="{D7EA4BEF-DD7C-4AE0-A72F-5BAB2EA59574}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_AMB" ID="{78F26219-D737-4239-881B-2957A1952348}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_SFX" ID="{0677D043-59F7-47A3-9CFD-4D36B487FB71}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_UI" ID="{49089FE0-48D3-4432-B1EA-E810C6D43934}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

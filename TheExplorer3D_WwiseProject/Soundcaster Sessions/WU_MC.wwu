@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D91FEF00-E451-4C46-9DAC-16E028DF2928}" SchemaVersion="110" RootDocumentID="{98056F35-211A-46AB-9828-13990FE35C6A}" ParentDocumentID="{98056F35-211A-46AB-9828-13990FE35C6A}">
+	<SoundcasterSessions>
+		<WorkUnit Name="WU_MC" ID="{D91FEF00-E451-4C46-9DAC-16E028DF2928}" OwnerID="{98056F35-211A-46AB-9828-13990FE35C6A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundcasterSession Name="MC" ID="{5C1FB817-3310-43D6-A00E-C6DF0CE00F1B}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MC_Foliage" ID="{B87165A1-9F5D-4FC0-80DE-85519C58AAA4}" WorkUnitID="{0FC86216-894D-42D3-BEA3-7E525AC73AE0}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MC_Jump" ID="{7B1E12C0-D741-4C16-9A64-26B75FAE5AE9}" WorkUnitID="{0FC86216-894D-42D3-BEA3-7E525AC73AE0}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MC_Land" ID="{86212975-6E54-4EB5-AC7C-18E45BB83BBF}" WorkUnitID="{0FC86216-894D-42D3-BEA3-7E525AC73AE0}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MC_Land_Roll" ID="{A8EFACBD-8CD4-4F06-8377-92BE9C131DA9}" WorkUnitID="{0FC86216-894D-42D3-BEA3-7E525AC73AE0}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MC_Walk" ID="{D29C6A1A-E65F-4BF3-BDF2-B664C897AC59}" WorkUnitID="{0FC86216-894D-42D3-BEA3-7E525AC73AE0}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dirt" ID="{346F3C2D-F5F0-426F-BEE6-8FAA9A34CA60}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

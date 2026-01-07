@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D7EA4BEF-DD7C-4AE0-A72F-5BAB2EA59574}" SchemaVersion="110" RootDocumentID="{98056F35-211A-46AB-9828-13990FE35C6A}" ParentDocumentID="{98056F35-211A-46AB-9828-13990FE35C6A}">
+	<SoundcasterSessions>
+		<WorkUnit Name="WU_ENEMIES" ID="{D7EA4BEF-DD7C-4AE0-A72F-5BAB2EA59574}" OwnerID="{98056F35-211A-46AB-9828-13990FE35C6A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

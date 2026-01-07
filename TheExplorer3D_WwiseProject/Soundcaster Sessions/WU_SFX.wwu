@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0677D043-59F7-47A3-9CFD-4D36B487FB71}" SchemaVersion="110" RootDocumentID="{98056F35-211A-46AB-9828-13990FE35C6A}" ParentDocumentID="{98056F35-211A-46AB-9828-13990FE35C6A}">
+	<SoundcasterSessions>
+		<WorkUnit Name="WU_SFX" ID="{0677D043-59F7-47A3-9CFD-4D36B487FB71}" OwnerID="{98056F35-211A-46AB-9828-13990FE35C6A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

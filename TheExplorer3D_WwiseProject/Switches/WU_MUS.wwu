@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B619D73-2DEA-4606-8922-016FCC95EF7C}" SchemaVersion="110" RootDocumentID="{1168EF81-A44E-4C60-8F1B-8347FE269919}" ParentDocumentID="{1168EF81-A44E-4C60-8F1B-8347FE269919}">
+	<Switches>
+		<WorkUnit Name="WU_MUS" ID="{5B619D73-2DEA-4606-8922-016FCC95EF7C}" OwnerID="{1168EF81-A44E-4C60-8F1B-8347FE269919}" PersistMode="Nested"/>
+	</Switches>
+</WwiseDocument>

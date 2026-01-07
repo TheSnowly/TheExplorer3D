@@ -4,6 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="MC" ID="{9CD0FA14-866C-4CD7-B1BD-4E2E8999AD48}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_Champer" ID="{77865131-843E-4CD3-BF90-02323F171B17}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_Grenadier" ID="{00A6C4FF-4737-4576-9039-EDFF68A42E4A}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_Gooner" ID="{07CB4F6D-72D9-4355-AB31-1696EBAC10E8}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_AMB" ID="{08489E52-2A8F-4F2A-853A-F50342A93487}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_SFX" ID="{444DAE74-9E18-48B2-B918-BAB862D4A908}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_UI" ID="{DC13B3B7-52DA-4984-8288-7192D64B6298}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

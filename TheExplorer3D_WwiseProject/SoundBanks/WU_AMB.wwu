@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{08489E52-2A8F-4F2A-853A-F50342A93487}" SchemaVersion="110" RootDocumentID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}" ParentDocumentID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}">
+	<SoundBanks>
+		<WorkUnit Name="WU_AMB" ID="{08489E52-2A8F-4F2A-853A-F50342A93487}" OwnerID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3E5BAACC-8486-4B4D-ADE1-1EB559B0B3F6}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{3E5BAACC-8486-4B4D-ADE1-1EB559B0B3F6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3E5BAACC-8486-4B4D-ADE1-1EB559B0B3F6}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="WU_AMB" ID="{32436151-6F37-4C40-9632-CB91997E1A37}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_MC" ID="{E09E300A-836F-4EEA-8608-6183FC1C2441}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_Ennemies" ID="{299BE782-9AAD-412E-AB7F-65A9D3972891}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_MUS" ID="{B4365C36-935B-445B-A52B-14938218CDDA}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_UI" ID="{A2314C98-6868-4E46-A08B-2AA7B572ECC5}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

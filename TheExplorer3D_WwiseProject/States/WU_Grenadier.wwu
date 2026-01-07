@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{28ECD89F-2A2C-4801-A97C-00B157134036}" SchemaVersion="110" RootDocumentID="{3E5BAACC-8486-4B4D-ADE1-1EB559B0B3F6}" ParentDocumentID="{299BE782-9AAD-412E-AB7F-65A9D3972891}">
+	<States>
+		<WorkUnit Name="WU_Grenadier" ID="{28ECD89F-2A2C-4801-A97C-00B157134036}" OwnerID="{299BE782-9AAD-412E-AB7F-65A9D3972891}" PersistMode="Nested"/>
+	</States>
+</WwiseDocument>

@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{1168EF81-A44E-4C60-8F1B-8347FE269919}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="MC" ID="{611A0DB5-A8BA-4030-8AAD-99F6F7EB0096}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_Ennemies" ID="{05099248-09C8-45B4-96AF-B5E39232FB53}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_AMB" ID="{9AD3273B-26C7-42D3-B140-051DA270D477}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_UI" ID="{57600F65-9AA2-4143-90BB-D60408A0EB2B}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_MUS" ID="{5B619D73-2DEA-4606-8922-016FCC95EF7C}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

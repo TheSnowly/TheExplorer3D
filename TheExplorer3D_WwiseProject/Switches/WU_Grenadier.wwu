@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB27933C-25D2-4865-9ACD-AAE9E70534BA}" SchemaVersion="110" RootDocumentID="{1168EF81-A44E-4C60-8F1B-8347FE269919}" ParentDocumentID="{05099248-09C8-45B4-96AF-B5E39232FB53}">
+	<Switches>
+		<WorkUnit Name="WU_Grenadier" ID="{CB27933C-25D2-4865-9ACD-AAE9E70534BA}" OwnerID="{05099248-09C8-45B4-96AF-B5E39232FB53}" PersistMode="Nested"/>
+	</Switches>
+</WwiseDocument>

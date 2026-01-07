@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" SchemaVersion="110" RootDocumentID="{857A9DDF-BBED-47D4-B259-71C54BAA0BFB}" ParentDocumentID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}">
+	<Events>
+		<WorkUnit Name="WU_Champer" ID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" OwnerID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>

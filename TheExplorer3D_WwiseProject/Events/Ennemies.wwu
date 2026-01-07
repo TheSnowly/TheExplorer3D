@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" SchemaVersion="110" RootDocumentID="{857A9DDF-BBED-47D4-B259-71C54BAA0BFB}" ParentDocumentID="{857A9DDF-BBED-47D4-B259-71C54BAA0BFB}">
+	<Events>
+		<WorkUnit Name="Ennemies" ID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" OwnerID="{857A9DDF-BBED-47D4-B259-71C54BAA0BFB}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Grenadier" ID="{2689AE75-7842-4672-A4FF-EAD0924971B7}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

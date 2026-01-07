@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="TheExplorer3D_WwiseProject" GUID="{4D84CF9C-7231-4100-A4DC-86004D86F50A}" Generator="2022.1.17.8543"/>
+	<CacheRoot>../../../../TheExplorer3D_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{520D11C4-A79B-4AA8-B529-20FE158A610A}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{7979DBDA-96B5-4613-8AA6-329AAA3D5379}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{497C2C52-C966-4C56-BD7D-74A3B0FE92B9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{0CF31CD0-3F8C-35C7-C24F-9961288DF159}</FileHash>
+</ProjectInfo>

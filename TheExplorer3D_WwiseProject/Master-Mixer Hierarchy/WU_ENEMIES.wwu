@@ -7,7 +7,11 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Bus Name="ENEMIES" ID="{3B3E0DE8-AB53-447C-BE29-7C42B49A33FE}"/>
+				<Bus Name="ENEMIES" ID="{3B3E0DE8-AB53-447C-BE29-7C42B49A33FE}">
+					<ChildrenList>
+						<Bus Name="Grenadier" ID="{0D0A01FB-D968-4FB9-830A-02FCD88BFF85}"/>
+					</ChildrenList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

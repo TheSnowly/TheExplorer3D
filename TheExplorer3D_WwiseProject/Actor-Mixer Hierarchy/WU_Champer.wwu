@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}" SchemaVersion="110" RootDocumentID="{57325191-4C4C-4E58-B494-C418638AF5ED}" ParentDocumentID="{35D1AEDF-D5DA-4912-B292-85A02C503F4B}">
+	<AudioObjects>
+		<WorkUnit Name="WU_Champer" ID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}" OwnerID="{383ED897-893D-4454-BB29-B18D0B75096B}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Champer" ID="{3272DD2D-87E0-40B6-B9C7-E7C49C9B0864}" ShortID="864939642">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

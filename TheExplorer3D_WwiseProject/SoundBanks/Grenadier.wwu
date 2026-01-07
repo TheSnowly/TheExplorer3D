@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6C990296-6B02-46B8-8E8F-F37D00579903}" SchemaVersion="110" RootDocumentID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}" ParentDocumentID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}">
 	<SoundBanks>
-		<WorkUnit Name="Grenadier" ID="{6C990296-6B02-46B8-8E8F-F37D00579903}" OwnerID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}" PersistMode="Nested"/>
+		<WorkUnit Name="Grenadier" ID="{6C990296-6B02-46B8-8E8F-F37D00579903}" OwnerID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="Grenadier" ID="{11F1DBA6-6DEB-4CDF-A587-8E3F87F3768F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_Grenadier_Idle_Breath" ID="{41C5BDF0-4D68-4601-BCF7-D505A455353E}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

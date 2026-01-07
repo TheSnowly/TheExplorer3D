@@ -3,11 +3,45 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{98056F35-211A-46AB-9828-13990FE35C6A}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="WU_MC" ID="{D91FEF00-E451-4C46-9DAC-16E028DF2928}" PersistMode="Reference"/>
-				<WorkUnit Name="WU_ENEMIES" ID="{D7EA4BEF-DD7C-4AE0-A72F-5BAB2EA59574}" PersistMode="Reference"/>
-				<WorkUnit Name="WU_AMB" ID="{78F26219-D737-4239-881B-2957A1952348}" PersistMode="Reference"/>
-				<WorkUnit Name="WU_SFX" ID="{0677D043-59F7-47A3-9CFD-4D36B487FB71}" PersistMode="Reference"/>
-				<WorkUnit Name="WU_UI" ID="{49089FE0-48D3-4432-B1EA-E810C6D43934}" PersistMode="Reference"/>
+				<SoundcasterSession Name="SC_Grenadier" ID="{B4FAA3EC-6A0D-4EA3-B092-0F4515B76F5D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_FOL_Grenadier_Footsteps_Walk" ID="{7CD7EAE0-AC0B-4405-8271-54F550605200}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Grenadier_LightBall_LP" ID="{811F8DC9-468B-44BB-85FD-9FB01B81ADE3}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_FOL_Grenadier_Presences_Walk" ID="{E35B48DC-29A5-41CB-ABD1-4AC5CDFF2CF4}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_FOL_AttackMeleeFootsteps" ID="{F87E5650-DBFD-426E-BF6A-C3BDD54E8E83}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Grenadier_Idle_Breath" ID="{41C5BDF0-4D68-4601-BCF7-D505A455353E}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_AttackMeleeCore" ID="{DFEF4AA7-02D9-4C87-84EB-61D865301DBE}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Grenadier_Idle_Metal" ID="{0F410FFE-D946-4204-9DC4-A51D9D7C75B0}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Grenadier_Idle_Vox" ID="{9699F4D7-6B80-48EB-A78D-D0B1D8DAE1FF}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

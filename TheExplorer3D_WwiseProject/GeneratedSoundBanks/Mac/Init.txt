@@ -5,6 +5,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1551306167	UI			\Default Work Unit\Master Audio Bus\WU_UI\UI	
 	1685527061	MC			\Default Work Unit\Master Audio Bus\WU_MC\MC	
 	2242381963	ENEMIES			\Default Work Unit\Master Audio Bus\WU_ENEMIES\ENEMIES	
+	2575231005	Grenadier Footsteps			\Default Work Unit\Master Audio Bus\WU_ENEMIES\ENEMIES\Grenadier\Grenadier Footsteps	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

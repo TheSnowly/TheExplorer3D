@@ -326,6 +326,84 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MC_Hurt" ID="{9A082D28-4D29-427B-8A64-3F178668DE47}">
+					<ChildrenList>
+						<Action Name="" ID="{CB603839-089D-494A-B0EB-EDBC70DA40D5}" ShortID="312837671">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Voice_Hurt" ID="{32D96C3A-D8FF-46F0-BE57-6DCD5B74D338}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A090022D-5DF0-4192-974B-8F23566469FB}" ShortID="490957472">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Hurt" ID="{1EAA899E-5E6E-49DF-A547-638AAF8D7BFB}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{62472C52-EC94-4186-B6BB-42FC5A26F02B}" ShortID="615070775">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Presence_Metal_High_Intensity" ID="{0BD8E0FA-2E73-427A-8E5D-3F1292FEBDCD}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_Death" ID="{DC753AD1-E621-4A66-8279-320758CC746E}">
+					<ChildrenList>
+						<Action Name="" ID="{04D639FD-20DE-4E0E-898B-D23193E39212}" ShortID="16311735">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Death" ID="{6AF1E2E6-88C8-4208-961B-D0E5E8172522}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8FA40F71-7768-443F-BB8C-11E6B5F7FC57}" ShortID="11937341">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Voice_Death" ID="{AA9D0CCF-79E4-4FC1-AC0B-6CF417F576C6}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5C230E7D-6DD7-4F3C-8AD4-BB8355AA12CB}" ShortID="879015319">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Presence_Metal_High_Intensity" ID="{0BD8E0FA-2E73-427A-8E5D-3F1292FEBDCD}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_Presence" ID="{23430899-571B-4D37-89BC-0349A97E572D}">
+					<ChildrenList>
+						<Action Name="" ID="{98B80AE6-1D7D-4031-843A-1AE964EEF266}" ShortID="160067010">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Presence_Metal_Mid_Intensity" ID="{0C811075-B475-4A39-8776-DAAAD0A4F8BA}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1F0A3C39-FBE5-4111-866D-1AB1F5E6A0E5}" ShortID="284481206">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Presence_Metal_Low_Intensity" ID="{CF91FC2C-0F6C-4BC1-8DA8-85E8517D5FDE}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{09F1B540-8A83-4132-9812-DEE47AAD145F}" ShortID="989089067">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Presence_Latex" ID="{099E3420-FECB-4D14-BE0F-4D9488EBC27B}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

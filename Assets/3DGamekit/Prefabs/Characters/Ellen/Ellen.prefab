@@ -22407,6 +22407,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c39f0713e9adb0d4bb4c16b72690d882,
       type: 2}
+  hurtEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f1ada611f7d1f064f9b6e911cbacf818,
+      type: 2}
+  deathEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: abdc9c5df05eefc449d27a84a9b7393a,
+      type: 2}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

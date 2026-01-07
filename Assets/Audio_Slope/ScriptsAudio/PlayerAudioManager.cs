@@ -12,6 +12,9 @@ public class PlayerAudioManager : MonoBehaviour
     public AK.Wwise.Event attackEvent;
     public AK.Wwise.Event attackEndComboEvent;
     public AK.Wwise.Event scuffEvent;
+    public AK.Wwise.Event hurtEvent;
+    public AK.Wwise.Event deathEvent;
+    public AK.Wwise.Event presenceEvent;
 
     // Start is called before the first frame update
     public void AudioWalk()
@@ -47,5 +50,20 @@ public class PlayerAudioManager : MonoBehaviour
     public void AudioScuff()
     {
         scuffEvent.Post(gameObject);
+    }
+
+    public void AudioHurt()
+    {
+        hurtEvent.Post(gameObject);
+    }
+
+    public void AudioDeath()
+    {
+        deathEvent.Post(gameObject);
+    }
+
+    public void AudioPresence()
+    {
+        presenceEvent.Post(gameObject);
     }
 }

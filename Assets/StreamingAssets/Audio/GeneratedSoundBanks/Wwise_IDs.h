@@ -15,10 +15,13 @@ namespace AK
     {
         static const AkUniqueID MC_ATTACK = 4170654020U;
         static const AkUniqueID MC_ATTACK_END_COMBO = 1439233273U;
+        static const AkUniqueID MC_DEATH = 3389321894U;
         static const AkUniqueID MC_FOLIAGE = 38756753U;
+        static const AkUniqueID MC_HURT = 3631971675U;
         static const AkUniqueID MC_JUMP = 2727768564U;
         static const AkUniqueID MC_LAND = 2166447543U;
         static const AkUniqueID MC_LAND_ROLL = 358198507U;
+        static const AkUniqueID MC_PRESENCE = 4218582063U;
         static const AkUniqueID MC_SCUFF = 1959425923U;
         static const AkUniqueID MC_WALK = 2385440235U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_BREATH = 3336111879U;

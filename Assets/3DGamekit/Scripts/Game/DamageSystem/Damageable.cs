@@ -72,6 +72,8 @@ namespace Gamekit3D
 
         public void ApplyDamage(DamageMessage data)
         {
+
+
             if (currentHitPoints <= 0)
             {//ignore damage if already dead. TODO : may have to change that if we want to detect hit on death...
                 return;
@@ -97,9 +99,13 @@ namespace Gamekit3D
             currentHitPoints -= data.amount;
 
             if (currentHitPoints <= 0)
+            {
                 schedule += OnDeath.Invoke; //This avoid race condition when objects kill each other.
+            }
             else
+            {
                 OnReceiveDamage.Invoke();
+            }
 
             var messageType = currentHitPoints <= 0 ? MessageType.DEAD : MessageType.DAMAGED;
 

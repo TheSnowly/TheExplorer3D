@@ -55,7 +55,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{B105CAF7-508D-8D10-61DB-4106F3F81758}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{A4687013-5FC8-A6C8-9E3D-605F51F58347}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -82,6 +82,10 @@
 				<File Id="36647162" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Presence_Metal_Mid_Intensity_02.wav</ShortName>
 					<CachePath>SFX/MC/MC_Presence_Metal_Mid_Intensity_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="47358212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Attack_01.wav</ShortName>
+					<CachePath>SFX/MC/MC_Attack_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="52738749" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Presence_Latex_02.wav</ShortName>
@@ -115,6 +119,10 @@
 					<ShortName>MC\MC_FT_Stone_Debris_02.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Stone_Debris_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="91790974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Voice_Attack_07.wav</ShortName>
+					<CachePath>SFX/MC/MC_Voice_Attack_07_10C4C929.wem</CachePath>
+				</File>
 				<File Id="113193811" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Mud_11.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Mud_11_10C4C929.wem</CachePath>
@@ -146,6 +154,10 @@
 				<File Id="161625711" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Stone_12.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Stone_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="163725728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Voice_Attack_01.wav</ShortName>
+					<CachePath>SFX/MC/MC_Voice_Attack_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="168241810" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Mud_03.wav</ShortName>
@@ -179,9 +191,17 @@
 					<ShortName>MC\MC_FT_Grass_11.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Grass_11_10C4C929.wem</CachePath>
 				</File>
+				<File Id="213290817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_FT_Dirt_Scuff_05.wav</ShortName>
+					<CachePath>SFX/MC/MC_FT_Dirt_Scuff_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="230144753" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Twig_Snap_01.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Twig_Snap_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="235744907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Attack_02.wav</ShortName>
+					<CachePath>SFX/MC/MC_Attack_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="240633262" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Land_Mud_01.wav</ShortName>
@@ -227,6 +247,10 @@
 					<ShortName>MC\MC_FT_Dirt_11.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Dirt_11_10C4C929.wem</CachePath>
 				</File>
+				<File Id="326943201" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Voice_Attack_03.wav</ShortName>
+					<CachePath>SFX/MC/MC_Voice_Attack_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="330267239" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Land_Mud_08.wav</ShortName>
 					<CachePath>SFX/MC/MC_Land_Mud_08_10C4C929.wem</CachePath>
@@ -234,6 +258,10 @@
 				<File Id="331109657" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Presence_Latex_08.wav</ShortName>
 					<CachePath>SFX/MC/MC_Presence_Latex_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="333082415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Attack_04.wav</ShortName>
+					<CachePath>SFX/MC/MC_Attack_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="341652135" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Stone_11.wav</ShortName>
@@ -263,9 +291,21 @@
 					<ShortName>MC\MC_Land_Mud_04.wav</ShortName>
 					<CachePath>SFX/MC/MC_Land_Mud_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="379946549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_FT_Dirt_Scuff_01.wav</ShortName>
+					<CachePath>SFX/MC/MC_FT_Dirt_Scuff_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="388157314" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Voice_Attack_05.wav</ShortName>
+					<CachePath>SFX/MC/MC_Voice_Attack_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="405691499" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Presence_Metal_Low_Intensity_08.wav</ShortName>
 					<CachePath>SFX/MC/MC_Presence_Metal_Low_Intensity_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="409383121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Voice_Attack_04.wav</ShortName>
+					<CachePath>SFX/MC/MC_Voice_Attack_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="418313197" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Land_Grass_05.wav</ShortName>
@@ -346,6 +386,10 @@
 				<File Id="541943515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Grass_10.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Grass_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="550713103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Combo_End.wav</ShortName>
+					<CachePath>SFX/MC/MC_Combo_End_10C4C929.wem</CachePath>
 				</File>
 				<File Id="555772892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Stone_10.wav</ShortName>
@@ -459,6 +503,10 @@
 					<ShortName>MC\MC_Presence_Latex_04.wav</ShortName>
 					<CachePath>SFX/MC/MC_Presence_Latex_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="708423820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Voice_Attack_02.wav</ShortName>
+					<CachePath>SFX/MC/MC_Voice_Attack_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="708793580" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Land_Grass_01.wav</ShortName>
 					<CachePath>SFX/MC/MC_Land_Grass_01_10C4C929.wem</CachePath>
@@ -547,6 +595,10 @@
 					<ShortName>MC\MC_FT_Stone_08.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Stone_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="826982433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_FT_Dirt_Scuff_04.wav</ShortName>
+					<CachePath>SFX/MC/MC_FT_Dirt_Scuff_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="827361475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Presence_Metal_Low_Intensity_02.wav</ShortName>
 					<CachePath>SFX/MC/MC_Presence_Metal_Low_Intensity_02_10C4C929.wem</CachePath>
@@ -599,6 +651,10 @@
 					<ShortName>MC\MC_Presence_Latex_09.wav</ShortName>
 					<CachePath>SFX/MC/MC_Presence_Latex_09_10C4C929.wem</CachePath>
 				</File>
+				<File Id="909613372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_FT_Dirt_Scuff_03.wav</ShortName>
+					<CachePath>SFX/MC/MC_FT_Dirt_Scuff_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="916455211" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Land_Dirt_06.wav</ShortName>
 					<CachePath>SFX/MC/MC_Land_Dirt_06_10C4C929.wem</CachePath>
@@ -618,6 +674,14 @@
 				<File Id="933596254" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Dirt_03.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Dirt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="934979397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Attack_03.wav</ShortName>
+					<CachePath>SFX/MC/MC_Attack_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="937186177" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_Voice_Attack_06.wav</ShortName>
+					<CachePath>SFX/MC/MC_Voice_Attack_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="938114976" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Jump_Stone_06.wav</ShortName>
@@ -659,6 +723,10 @@
 					<ShortName>MC\MC_Jump_Stone_04.wav</ShortName>
 					<CachePath>SFX/MC/MC_Jump_Stone_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1004133787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_FT_Dirt_Scuff_06.wav</ShortName>
+					<CachePath>SFX/MC/MC_FT_Dirt_Scuff_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1021376874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Jump_Grass_03.wav</ShortName>
 					<CachePath>SFX/MC/MC_Jump_Grass_03_10C4C929.wem</CachePath>
@@ -670,6 +738,10 @@
 				<File Id="1031954776" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Jump_Stone_02.wav</ShortName>
 					<CachePath>SFX/MC/MC_Jump_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042497385" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\MC_FT_Dirt_Scuff_02.wav</ShortName>
+					<CachePath>SFX/MC/MC_FT_Dirt_Scuff_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1060581612" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Presence_Metal_Mid_Intensity_04.wav</ShortName>
@@ -693,6 +765,73 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="4170654020" Name="MC_Attack" DurationType="OneShot" DurationMin="0.5045379" DurationMax="0.6">
+					<MediaRefs>
+						<MediaRef Id="36647162"/>
+						<MediaRef Id="47358212"/>
+						<MediaRef Id="52738749"/>
+						<MediaRef Id="91790974"/>
+						<MediaRef Id="115747630"/>
+						<MediaRef Id="154332547"/>
+						<MediaRef Id="163725728"/>
+						<MediaRef Id="235744907"/>
+						<MediaRef Id="245505823"/>
+						<MediaRef Id="326943201"/>
+						<MediaRef Id="331109657"/>
+						<MediaRef Id="333082415"/>
+						<MediaRef Id="388157314"/>
+						<MediaRef Id="409383121"/>
+						<MediaRef Id="571818664"/>
+						<MediaRef Id="645183640"/>
+						<MediaRef Id="686557133"/>
+						<MediaRef Id="704080029"/>
+						<MediaRef Id="708423820"/>
+						<MediaRef Id="710748501"/>
+						<MediaRef Id="745247242"/>
+						<MediaRef Id="790712924"/>
+						<MediaRef Id="833944104"/>
+						<MediaRef Id="876586976"/>
+						<MediaRef Id="905816905"/>
+						<MediaRef Id="934979397"/>
+						<MediaRef Id="937186177"/>
+						<MediaRef Id="945242077"/>
+						<MediaRef Id="1060581612"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1439233273" Name="MC_Attack_End_Combo" DurationType="OneShot" DurationMin="0.607" DurationMax="0.7063088">
+					<MediaRefs>
+						<MediaRef Id="47358212"/>
+						<MediaRef Id="52738749"/>
+						<MediaRef Id="91790974"/>
+						<MediaRef Id="115747630"/>
+						<MediaRef Id="154332547"/>
+						<MediaRef Id="163725728"/>
+						<MediaRef Id="235744907"/>
+						<MediaRef Id="326943201"/>
+						<MediaRef Id="331109657"/>
+						<MediaRef Id="333082415"/>
+						<MediaRef Id="363701404"/>
+						<MediaRef Id="388157314"/>
+						<MediaRef Id="409383121"/>
+						<MediaRef Id="457140619"/>
+						<MediaRef Id="483558680"/>
+						<MediaRef Id="550713103"/>
+						<MediaRef Id="704080029"/>
+						<MediaRef Id="708423820"/>
+						<MediaRef Id="710748501"/>
+						<MediaRef Id="718702946"/>
+						<MediaRef Id="745247242"/>
+						<MediaRef Id="790712924"/>
+						<MediaRef Id="833944104"/>
+						<MediaRef Id="849130404"/>
+						<MediaRef Id="876586976"/>
+						<MediaRef Id="905816905"/>
+						<MediaRef Id="934979397"/>
+						<MediaRef Id="937186177"/>
+						<MediaRef Id="945242077"/>
+						<MediaRef Id="945998323"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="38756753" Name="MC_Foliage" DurationType="OneShot" DurationMin="0" DurationMax="0.84197915">
 					<MediaRefs>
 						<MediaRef Id="16310173"/>
@@ -1050,6 +1189,45 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="1959425923" Name="MC_Scuff" DurationType="OneShot" DurationMin="0.2516998" DurationMax="0.36666667">
+					<MediaRefs>
+						<MediaRef Id="52738749"/>
+						<MediaRef Id="115747630"/>
+						<MediaRef Id="154332547"/>
+						<MediaRef Id="290225139"/>
+						<MediaRef Id="331109657"/>
+						<MediaRef Id="405691499"/>
+						<MediaRef Id="451998286"/>
+						<MediaRef Id="519619693"/>
+						<MediaRef Id="691940495"/>
+						<MediaRef Id="693827067"/>
+						<MediaRef Id="704080029"/>
+						<MediaRef Id="710748501"/>
+						<MediaRef Id="745247242"/>
+						<MediaRef Id="767376111"/>
+						<MediaRef Id="767681725"/>
+						<MediaRef Id="790712924"/>
+						<MediaRef Id="827361475"/>
+						<MediaRef Id="833944104"/>
+						<MediaRef Id="876586976"/>
+						<MediaRef Id="905816905"/>
+						<MediaRef Id="945242077"/>
+						<MediaRef Id="949589750"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3861009810" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="213290817"/>
+								<MediaRef Id="379946549"/>
+								<MediaRef Id="826982433"/>
+								<MediaRef Id="909613372"/>
+								<MediaRef Id="1004133787"/>
+								<MediaRef Id="1042497385"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2385440235" Name="MC_Walk" DurationType="OneShot" DurationMin="0.2516998" DurationMax="0.46666667">
 					<MediaRefs>
 						<MediaRef Id="52738749"/>
@@ -1198,5 +1376,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1357A18A-496A-BCD5-7189-5FDE085A9D55}</FileHash>
+	<FileHash>{298D0D57-DB2E-010D-342D-1028BC50E290}</FileHash>
 </SoundBanksInfo>

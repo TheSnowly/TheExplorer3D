@@ -13,12 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_FOL_ATTACKMELEEFOOTSTEPS = 2291827489U;
         static const AkUniqueID PLAY_FOL_GRENADIER_FOOTSTEPS_WALK = 3037255001U;
         static const AkUniqueID PLAY_FOL_GRENADIER_PRESENCES_WALK = 1615984476U;
+        static const AkUniqueID PLAY_SFX_ATTACKMELEECORE = 565748451U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_BREATH = 3336111879U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_METAL = 162338938U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_VOX = 4067060800U;
         static const AkUniqueID PLAY_SFX_GRENADIER_LIGHTBALL_LP = 3960731846U;
+        static const AkUniqueID STOP_SFX_GRENADIER_LIGHTBALL_LP_01 = 1361203702U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -50,6 +53,7 @@ namespace AK
         static const AkUniqueID AMB = 1117531639U;
         static const AkUniqueID ENEMIES = 2242381963U;
         static const AkUniqueID GRENADIER = 1343892184U;
+        static const AkUniqueID GRENADIER_FOOTSTEPS = 2575231005U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MC = 1685527061U;
         static const AkUniqueID SFX = 393239870U;

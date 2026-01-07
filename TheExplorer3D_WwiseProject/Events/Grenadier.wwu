@@ -30,7 +30,7 @@
 						<Action Name="" ID="{1E384AEC-9F03-4184-BA52-61A534E56EBE}" ShortID="743446971">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Fol_Grenadier_Footsteps_Walk" ID="{6CCAB20D-9DC0-4430-9A9E-25E0B6C54B57}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+									<ObjectRef Name="FOL_Grenadier_Footsteps_Walk" ID="{6CCAB20D-9DC0-4430-9A9E-25E0B6C54B57}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -64,6 +64,42 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Grenadier_Idle_Vox" ID="{D606A9EF-198E-4CDB-8BFB-D2E2CDAF27DF}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_AttackMeleeCore" ID="{DFEF4AA7-02D9-4C87-84EB-61D865301DBE}">
+					<ChildrenList>
+						<Action Name="" ID="{9F74EC43-91A3-4214-8EB1-6B27CEFB6A81}" ShortID="323754671">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_AttackMeleeCore" ID="{580BFC1C-2324-4288-8A0C-8BCD4B9E6C8E}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FOL_AttackMeleeFootsteps" ID="{F87E5650-DBFD-426E-BF6A-C3BDD54E8E83}">
+					<ChildrenList>
+						<Action Name="" ID="{ADFFA63B-132F-4967-8AD9-71F17BE759CF}" ShortID="1034053324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOL_Grenadier_Footsteps_Melee" ID="{EECDD7B0-DC9E-4FA8-8EA5-449CC7BDAD41}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_Grenadier_LightBall_LP_01" ID="{6772F613-57F8-49D4-8AD5-3E5EB56E0FF2}">
+					<ChildrenList>
+						<Action Name="" ID="{FAA41CE6-67F5-42AF-A7B0-D400E0284D36}" ShortID="777825287">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_LightBall_LP" ID="{776A3975-7B6D-4D89-9874-5C8046BB51FA}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{1A85A580-9B20-9783-C59D-EC1EED05C741}">
+		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{22045FFB-1EDD-9747-2816-6CABE0781DEE}">
 			<ShortName>Grenadier</ShortName>
 			<Path>Grenadier.bnk</Path>
 			<Media>
@@ -27,7 +27,7 @@
 				</File>
 				<File Id="123464626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\SFX_Grenadier_Idle_LP_V2.wav</ShortName>
-					<CachePath>SFX/Grenadier/SFX_Grenadier_Idle_LP_V2_10C4C929.wem</CachePath>
+					<CachePath>SFX/Grenadier/SFX_Grenadier_Idle_LP_V2_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="123464847" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_08.wav</ShortName>
@@ -45,9 +45,17 @@
 					<ShortName>Grenadier\FOL_Grenadier_Walk_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="300666135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_MeleeAttackCore.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_MeleeAttackCore_10C4C929.wem</CachePath>
+				</File>
 				<File Id="401820937" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Presences_Walk_06.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Presences_Walk_06_6A8A4ABE.wem</CachePath>
+				</File>
+				<File Id="422558518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_MeleeAttackFootsteps_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_MeleeAttackFootsteps_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="511112472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\SFX_Grenadier_EnergyBall_LP.wav</ShortName>
@@ -56,6 +64,10 @@
 				<File Id="530808386" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_03.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="550495779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_MeleeAttackFootsteps_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_MeleeAttackFootsteps_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="557950181" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Idle_Metal_01.wav</ShortName>
@@ -68,6 +80,10 @@
 				<File Id="633685855" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_07.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="766475131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_MeleeAttackFootsteps_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_MeleeAttackFootsteps_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="796164905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_10.wav</ShortName>
@@ -107,7 +123,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3037255001" Name="Play_FOL_Grenadier_Footsteps_Walk" DurationType="OneShot" DurationMin="0.61986995" DurationMax="0.76007">
+				<Event Id="2291827489" Name="Play_FOL_AttackMeleeFootsteps" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.48529887" DurationMax="0.86039555">
+					<MediaRefs>
+						<MediaRef Id="422558518"/>
+						<MediaRef Id="550495779"/>
+						<MediaRef Id="766475131"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3037255001" Name="Play_FOL_Grenadier_Footsteps_Walk" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.61986995" DurationMax="0.76007">
 					<MediaRefs>
 						<MediaRef Id="89252773"/>
 						<MediaRef Id="96589123"/>
@@ -121,7 +144,7 @@
 						<MediaRef Id="993024283"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1615984476" Name="Play_FOL_Grenadier_Presences_Walk" DurationType="OneShot" DurationMin="0.6966782" DurationMax="1.0037948">
+				<Event Id="1615984476" Name="Play_FOL_Grenadier_Presences_Walk" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.6966782" DurationMax="1.0037948">
 					<MediaRefs>
 						<MediaRef Id="58515750"/>
 						<MediaRef Id="137109443"/>
@@ -132,31 +155,37 @@
 						<MediaRef Id="1068592448"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3336111879" Name="Play_SFX_Grenadier_Idle_Breath" DurationType="OneShot" DurationMin="4.1666665" DurationMax="4.1666665">
+				<Event Id="565748451" Name="Play_SFX_AttackMeleeCore" MaxAttenuation="100" DurationType="OneShot" DurationMin="3.0666666" DurationMax="3.0666666">
+					<MediaRefs>
+						<MediaRef Id="300666135"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3336111879" Name="Play_SFX_Grenadier_Idle_Breath" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="123464626"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="162338938" Name="Play_SFX_Grenadier_Idle_Metal" DurationType="OneShot" DurationMin="1.3156683" DurationMax="2.2152967">
+				<Event Id="162338938" Name="Play_SFX_Grenadier_Idle_Metal" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.3156683" DurationMax="2.2152967">
 					<MediaRefs>
 						<MediaRef Id="557950181"/>
 						<MediaRef Id="1072746514"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4067060800" Name="Play_SFX_Grenadier_Idle_Vox" DurationType="OneShot" DurationMin="1.7797402" DurationMax="2.739778">
+				<Event Id="4067060800" Name="Play_SFX_Grenadier_Idle_Vox" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.7797402" DurationMax="2.739778">
 					<MediaRefs>
 						<MediaRef Id="619019673"/>
 						<MediaRef Id="955829485"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3960731846" Name="Play_SFX_Grenadier_LightBall_LP" DurationType="Infinite">
+				<Event Id="3960731846" Name="Play_SFX_Grenadier_LightBall_LP" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="511112472"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1361203702" Name="Stop_SFX_Grenadier_LightBall_LP_01" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D6833826-CEE0-7B65-3C85-8D8362F5E03D}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4ECE1A41-3E58-176A-C33F-F8C20E4A5CCD}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -172,6 +201,7 @@
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="1685527061" Name="MC"/>
 				<Bus Id="2242381963" Name="ENEMIES"/>
+				<Bus Id="2575231005" Name="Grenadier Footsteps"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<SwitchGroups>
@@ -190,5 +220,5 @@
 			<Path>MC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ABE50DCD-0781-DD3A-CB92-F6BC70FFD46B}</FileHash>
+	<FileHash>{84D993F5-A379-11FB-EFD5-33E23700BE30}</FileHash>
 </SoundBanksInfo>

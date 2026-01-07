@@ -18,8 +18,16 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_FOL_AttackMeleeFootsteps" ID="{F87E5650-DBFD-426E-BF6A-C3BDD54E8E83}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_SFX_Grenadier_Idle_Breath" ID="{41C5BDF0-4D68-4601-BCF7-D505A455353E}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_AttackMeleeCore" ID="{DFEF4AA7-02D9-4C87-84EB-61D865301DBE}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_SFX_Grenadier_Idle_Metal" ID="{0F410FFE-D946-4204-9DC4-A51D9D7C75B0}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>

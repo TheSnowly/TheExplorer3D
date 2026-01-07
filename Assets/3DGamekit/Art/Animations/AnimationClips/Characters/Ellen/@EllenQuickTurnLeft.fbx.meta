@@ -806,7 +806,7 @@ ModelImporter:
           rotationOrder: 4
       events:
       - time: 0.20231208
-        functionName: AudioWalk
+        functionName: AudioScuff
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

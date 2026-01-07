@@ -649,6 +649,9 @@ namespace Gamekit3D
         // Called by OnReceiveMessage.
         void Damaged(Damageable.DamageMessage damageMessage)
         {
+
+            GetComponent<PlayerAudioManager>().AudioHurt();
+
             // Set the Hurt parameter of the animator.
             m_Animator.SetTrigger(m_HashHurt);
 
@@ -675,6 +678,7 @@ namespace Gamekit3D
         // Called by OnReceiveMessage and by DeathVolumes in the scene.
         public void Die(Damageable.DamageMessage damageMessage)
         {
+            GetComponent<PlayerAudioManager>().AudioDeath();
             m_Animator.SetTrigger(m_HashDeath);
             m_ForwardSpeed = 0f;
             m_VerticalSpeed = 0f;

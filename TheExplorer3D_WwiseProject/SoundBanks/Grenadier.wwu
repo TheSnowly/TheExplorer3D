@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6C990296-6B02-46B8-8E8F-F37D00579903}" SchemaVersion="110" RootDocumentID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}" ParentDocumentID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}">
+	<SoundBanks>
+		<WorkUnit Name="Grenadier" ID="{6C990296-6B02-46B8-8E8F-F37D00579903}" OwnerID="{E514FAD7-101E-48A1-99D2-6B8B951FB0DD}" PersistMode="Nested"/>
+	</SoundBanks>
+</WwiseDocument>

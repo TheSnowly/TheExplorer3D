@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}" SchemaVersion="110" RootDocumentID="{57325191-4C4C-4E58-B494-C418638AF5ED}" ParentDocumentID="{35D1AEDF-D5DA-4912-B292-85A02C503F4B}">
+	<AudioObjects>
+		<WorkUnit Name="WU_Grenadier" ID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}" OwnerID="{383ED897-893D-4454-BB29-B18D0B75096B}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Grenadier" ID="{394DD395-F806-4B75-B953-BB6DD2F169D3}" ShortID="648140367">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Grenadier" ID="{0D0A01FB-D968-4FB9-830A-02FCD88BFF85}" WorkUnitID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="SFX_Grenadier_Idle" ID="{FA3B3D4C-3250-4A77-8DB5-1C6133B7531C}" ShortID="193050268">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SFX_Grenadier_Idle_Metal" ID="{78E5A5DF-EB61-4E75-811B-9B2A685F489A}" ShortID="34838175">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENEMIES" ID="{3B3E0DE8-AB53-447C-BE29-7C42B49A33FE}" WorkUnitID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<Sound Name="SFX_Grenadier_Idle_Breath_LP" ID="{E3981629-FFC0-4637-B436-C135BEC74EF3}" ShortID="150752945">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ENEMIES" ID="{3B3E0DE8-AB53-447C-BE29-7C42B49A33FE}" WorkUnitID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Grenadier_Idle_LP_V2" ID="{9243E1DB-95D8-44A4-923F-57A68C80FC22}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier\SFX_Grenadier_Idle_LP_V2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123464626"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Grenadier_Idle_LP_V2" ID="{9243E1DB-95D8-44A4-923F-57A68C80FC22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

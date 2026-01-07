@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2689AE75-7842-4672-A4FF-EAD0924971B7}" SchemaVersion="110" RootDocumentID="{857A9DDF-BBED-47D4-B259-71C54BAA0BFB}" ParentDocumentID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}">
+	<Events>
+		<WorkUnit Name="Grenadier" ID="{2689AE75-7842-4672-A4FF-EAD0924971B7}" OwnerID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_SFX_Grenadier_Idle_Breath" ID="{41C5BDF0-4D68-4601-BCF7-D505A455353E}">
+					<ChildrenList>
+						<Action Name="" ID="{8C5550C4-61AD-4AD3-9BB8-F824CA6ED236}" ShortID="489632013">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_Idle_Breath_LP" ID="{E3981629-FFC0-4637-B436-C135BEC74EF3}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

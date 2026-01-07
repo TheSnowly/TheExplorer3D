@@ -16,6 +16,11 @@
 							<ObjectRef Name="ENEMIES" ID="{3B3E0DE8-AB53-447C-BE29-7C42B49A33FE}" WorkUnitID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="WU_Grenadier" ID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_Champer" ID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_Gooner" ID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}" PersistMode="Reference"/>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

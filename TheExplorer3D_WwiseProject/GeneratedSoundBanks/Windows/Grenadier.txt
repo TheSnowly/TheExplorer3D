@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3336111879	Play_SFX_Grenadier_Idle_Breath			\Default Work Unit\Ennemies\Grenadier\Play_SFX_Grenadier_Idle_Breath	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	123464626	SFX_Grenadier_Idle_Breath_LP	F:\Slope\Unity_SDJV 2025-2026\Exercice 06 - 010626 - TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\Grenadier\SFX_Grenadier_Idle_LP_V2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_ENEMIES\ENEMIES\WU_Grenadier\Grenadier\SFX_Grenadier_Idle\SFX_Grenadier_Idle_Breath_LP		800096
+

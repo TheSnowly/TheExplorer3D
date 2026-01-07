@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{AD3EBCA6-1CAF-0F0C-FFA4-1C12FB68E76C}">
+			<ShortName>Grenadier</ShortName>
+			<Path>Grenadier.bnk</Path>
+			<Media>
+				<File Id="123464626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\SFX_Grenadier_Idle_LP_V2.wav</ShortName>
+					<CachePath>SFX/Grenadier/SFX_Grenadier_Idle_LP_V2_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3336111879" Name="Play_SFX_Grenadier_Idle_Breath" DurationType="OneShot" DurationMin="4.1666665" DurationMax="4.1666665">
+					<MediaRefs>
+						<MediaRef Id="123464626"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D6833826-CEE0-7B65-3C85-8D8362F5E03D}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="1117531639" Name="AMB"/>
+				<Bus Id="1343892184" Name="Grenadier"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="1685527061" Name="MC"/>
+				<Bus Id="2242381963" Name="ENEMIES"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C9FC550E-B632-5E99-658A-ACDB0FA1342A}</FileHash>
+</SoundBanksInfo>

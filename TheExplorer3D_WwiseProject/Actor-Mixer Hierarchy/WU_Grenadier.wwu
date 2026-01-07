@@ -27,6 +27,37 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="SFX_Grenadier_Idle_Metal" ID="{78E5A5DF-EB61-4E75-811B-9B2A685F489A}" ShortID="34838175">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E35A44E9-BC71-46AD-9517-B32276E57A78}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="227"/>
+															<Property Name="Min" Type="Real64" Value="-177"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3142128F-1AB8-4B1A-BB27-60E64FE6D38C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
@@ -35,6 +66,52 @@
 											<ObjectRef Name="ENEMIES" ID="{3B3E0DE8-AB53-447C-BE29-7C42B49A33FE}" WorkUnitID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FOL_Grenadier_Idle_Metal_01" ID="{F1671389-3729-43FC-9E08-AE4F4787EC73}" ShortID="521714131">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Idle_Metal_01" ID="{D0C855F8-6867-453A-A0C9-197723B8CABB}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Idle_Metal_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="557950181"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Idle_Metal_01" ID="{D0C855F8-6867-453A-A0C9-197723B8CABB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Idle_Metal_02" ID="{24E65D59-0C81-4019-937D-B4AAF81EC409}" ShortID="877098819">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Idle_Metal_02" ID="{73A4D756-FC48-48DE-AC66-94C6AD1004A7}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Idle_Metal_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1072746514"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Idle_Metal_02" ID="{73A4D756-FC48-48DE-AC66-94C6AD1004A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<Sound Name="SFX_Grenadier_Idle_Breath_LP" ID="{E3981629-FFC0-4637-B436-C135BEC74EF3}" ShortID="150752945">
 									<ReferenceList>
@@ -58,9 +135,103 @@
 										<ActiveSource Name="SFX_Grenadier_Idle_LP_V2" ID="{9243E1DB-95D8-44A4-923F-57A68C80FC22}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="SFX_Grenadier_Idle_Vox" ID="{D606A9EF-198E-4CDB-8BFB-D2E2CDAF27DF}" ShortID="80756639">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5E96BC09-5DE2-4F3B-A6DA-97C044E2BD5F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-278"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A502913E-EA34-4FC2-9F72-0E881EBCD213}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FOL_Grenadier_Idle_Vox_01" ID="{F4B4C2FD-57F7-4616-A034-F2B17EC1686F}" ShortID="632418802">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Idle_Vox_01" ID="{DD2BC587-40F5-4C72-866D-89B999FCF9AB}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Idle_Vox_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="619019673"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Idle_Vox_01" ID="{DD2BC587-40F5-4C72-866D-89B999FCF9AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Idle_Vox_02" ID="{E9914E78-E91B-4070-AF17-2392F0D087F3}" ShortID="451924393">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Idle_Vox_02" ID="{F365BA8B-9208-49B2-A268-53EBBA2B2CDA}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Idle_Vox_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="955829485"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Idle_Vox_02" ID="{F365BA8B-9208-49B2-A268-53EBBA2B2CDA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Footsteps" ID="{35E2FE01-C2A7-461B-8566-0E2BFF1140A6}" ShortID="84044132">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
@@ -70,7 +241,36 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Fol_Grenadier_" ID="{6CCAB20D-9DC0-4430-9A9E-25E0B6C54B57}" ShortID="1054472321">
+								<RandomSequenceContainer Name="Fol_Grenadier_Footsteps_Walk" ID="{6CCAB20D-9DC0-4430-9A9E-25E0B6C54B57}" ShortID="1054472321">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{16713B24-B796-4BBD-8967-47BC134DD0DF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="126"/>
+															<Property Name="Min" Type="Real64" Value="-227"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="8"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{249000A3-6F76-4408-8F9E-DD0663AC2DB8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
@@ -79,9 +279,481 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FOL_Grenadier_Walk_01" ID="{9AC51BA4-303B-4D1E-8B4B-8986B0A64532}" ShortID="91466958">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_01" ID="{2012F21C-192F-44D8-8D3E-A8058E8CB6E0}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="224708654"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_01" ID="{2012F21C-192F-44D8-8D3E-A8058E8CB6E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_02" ID="{9765D55F-BB4A-4022-AEEC-314AC86143EC}" ShortID="437956476">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_02" ID="{8200A032-0C67-4AC5-84FC-EA2683F12D87}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="993024283"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_02" ID="{8200A032-0C67-4AC5-84FC-EA2683F12D87}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_03" ID="{6FFA45A4-1A48-4718-99CA-DDB895A54C75}" ShortID="407744703">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_03" ID="{670AFBF2-C603-48C8-A509-70BA64AFBEDC}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="530808386"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_03" ID="{670AFBF2-C603-48C8-A509-70BA64AFBEDC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_04" ID="{5F7E0095-3A62-42AD-A77B-3D2FC4312057}" ShortID="1058913934">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_04" ID="{E0769D7A-3EBA-439C-AAC9-48B34CDA7F32}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="854926159"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_04" ID="{E0769D7A-3EBA-439C-AAC9-48B34CDA7F32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_05" ID="{5D6B1571-DEC6-42D2-AAA3-9B7BB6A73825}" ShortID="469994336">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_05" ID="{2D0974AF-77B9-49BB-A312-2F1FE822AC96}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="219684704"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_05" ID="{2D0974AF-77B9-49BB-A312-2F1FE822AC96}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_06" ID="{9F768458-3B41-42A1-9133-CA12C3DFBC81}" ShortID="534106756">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_06" ID="{525C573E-6DC6-4433-8C9A-E1264F1313E1}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="89252773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_06" ID="{525C573E-6DC6-4433-8C9A-E1264F1313E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_07" ID="{698A05EC-3356-4803-8CB8-37A6FEF4A497}" ShortID="293432381">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_07" ID="{D9ACD9A7-2FE6-4DA6-A888-AF5B7BACDDA0}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="633685855"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_07" ID="{D9ACD9A7-2FE6-4DA6-A888-AF5B7BACDDA0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_08" ID="{7806B60C-8A6A-432D-A255-A706323ABB05}" ShortID="745794765">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_08" ID="{4B96DCEB-3866-4BA8-B8B0-3820B11360A9}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123464847"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_08" ID="{4B96DCEB-3866-4BA8-B8B0-3820B11360A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_09" ID="{2603F1BD-DA82-440F-A392-29B9CC36C4E0}" ShortID="831522891">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_09" ID="{C3A5B667-6687-482E-8778-AF5DB2D4F1C3}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="96589123"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_09" ID="{C3A5B667-6687-482E-8778-AF5DB2D4F1C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Walk_10" ID="{34A72AB7-9E4C-45BB-A46E-FA40EFBC1F75}" ShortID="514065643">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Walk_10" ID="{EAC0549A-324D-403A-995F-F88E6162E8DB}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Walk_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="796164905"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Walk_10" ID="{EAC0549A-324D-403A-995F-F88E6162E8DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="Presences" ID="{0767A704-FF23-40A6-B206-C86A121E0FD0}" ShortID="675984902">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Fol_Grenadier_Presences_Walk" ID="{C6E05B7D-D3FF-482B-8C73-6668EB8A40E5}" ShortID="706088278">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A42E5995-32AF-4964-B5CF-1CA77D577074}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="152"/>
+															<Property Name="Min" Type="Real64" Value="-126"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DCDC9164-697F-495D-A1B0-B902014822A3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FOL_Grenadier_Presences_Walk_01" ID="{7ADB460E-9FB2-48B5-A0E4-2851F3A3BD38}" ShortID="597464760">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Presences_Walk_01" ID="{4B8FDE7D-FCE6-4156-8F6F-70788A9E29A1}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.104584040747029"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.888964346349745"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Presences_Walk_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="917047388"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Presences_Walk_01" ID="{4B8FDE7D-FCE6-4156-8F6F-70788A9E29A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Presences_Walk_02" ID="{A9BC5A98-5A65-48F2-A979-BA4229284577}" ShortID="569612094">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Presences_Walk_02" ID="{B9BB01E5-A452-4A0C-8745-4C0247115AF8}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Presences_Walk_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="58515750"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Presences_Walk_02" ID="{B9BB01E5-A452-4A0C-8745-4C0247115AF8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Presences_Walk_03" ID="{6CF16996-D608-4DBA-A065-619E25AE30A9}" ShortID="999655036">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Presences_Walk_03" ID="{62FE6ACF-30CE-4E89-8004-660F9482E670}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Presences_Walk_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1038077606"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Presences_Walk_03" ID="{62FE6ACF-30CE-4E89-8004-660F9482E670}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Presences_Walk_04" ID="{58702A5B-4BCA-44DD-AD44-B40837CC4735}" ShortID="723856519">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Presences_Walk_04" ID="{27B733BA-7475-47A2-9F5E-DB83467E85C0}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Presences_Walk_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1068592448"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Presences_Walk_04" ID="{27B733BA-7475-47A2-9F5E-DB83467E85C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Presences_Walk_05" ID="{5D16176E-19D0-499D-84AA-616791A49BED}" ShortID="349898027">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Presences_Walk_05" ID="{FDFA1D5C-D74F-41EB-A418-214CE9238726}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0142614601018676"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.760611205432937"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Presences_Walk_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="896428788"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Presences_Walk_05" ID="{FDFA1D5C-D74F-41EB-A418-214CE9238726}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Presences_Walk_06" ID="{82A98A75-ABC7-4D08-9BE1-EAFBDCBB9AE7}" ShortID="12757705">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Presences_Walk_06" ID="{26DA601F-CCB4-41EE-BA5D-E55528B4FAFF}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.841426146010187"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Presences_Walk_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="401820937"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Presences_Walk_06" ID="{26DA601F-CCB4-41EE-BA5D-E55528B4FAFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FOL_Grenadier_Presences_Walk_07" ID="{4B145F08-57B4-4ABE-9A03-C64BF4BA469A}" ShortID="391142882">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FOL_Grenadier_Presences_Walk_07" ID="{D8734134-A4ED-4379-B44F-1CF4D05BA0A9}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier\FOL_Grenadier_Presences_Walk_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="137109443"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FOL_Grenadier_Presences_Walk_07" ID="{D8734134-A4ED-4379-B44F-1CF4D05BA0A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<Sound Name="SFX_Grenadier_LightBall_LP" ID="{776A3975-7B6D-4D89-9874-5C8046BB51FA}" ShortID="143912012">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Grenadier_EnergyBall_LP" ID="{5CA2D4FF-3733-4063-8057-9B9EB53BF083}">
+									<Language>SFX</Language>
+									<AudioFile>Grenadier\SFX_Grenadier_EnergyBall_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="511112472"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Grenadier_EnergyBall_LP" ID="{5CA2D4FF-3733-4063-8057-9B9EB53BF083}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

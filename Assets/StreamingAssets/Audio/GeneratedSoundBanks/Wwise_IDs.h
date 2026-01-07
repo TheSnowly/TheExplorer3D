@@ -13,13 +13,36 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_FOL_GRENADIER_FOOTSTEPS_WALK = 3037255001U;
+        static const AkUniqueID PLAY_FOL_GRENADIER_PRESENCES_WALK = 1615984476U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_BREATH = 3336111879U;
+        static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_METAL = 162338938U;
+        static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_VOX = 4067060800U;
+        static const AkUniqueID PLAY_SFX_GRENADIER_LIGHTBALL_LP = 3960731846U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FT_TYPE
+        {
+            static const AkUniqueID GROUP = 3861009810U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID MUD = 712897245U;
+                static const AkUniqueID STONE = 1216965916U;
+            } // namespace SWITCH
+        } // namespace FT_TYPE
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID GRENADIER = 1343892184U;
+        static const AkUniqueID MC = 1685527061U;
     } // namespace BANKS
 
     namespace BUSSES

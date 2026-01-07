@@ -3013,7 +3013,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3245,72 +3245,6 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="MC_FT_Twig_Snap_08" ID="{770EC0CA-D879-4324-ADF7-B23C60871A4F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="MC_FT_Twig_Snap_17" ID="{B34FCF74-BBDA-4635-9255-ECBEE9FE693F}" ShortID="671647664">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="MC_FT_Twig_Snap_17" ID="{B7CCF3CE-6702-43AB-B3C6-D6B1620AF571}">
-															<Language>SFX</Language>
-															<AudioFile>MC\MC_FT_Twig_Snap_17.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="449918681"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="MC_FT_Twig_Snap_17" ID="{B7CCF3CE-6702-43AB-B3C6-D6B1620AF571}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="MC_FT_Twig_Snap_18" ID="{CB8AB438-0B58-4582-B5BF-645A7170ABE0}" ShortID="285662046">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="MC_FT_Twig_Snap_18" ID="{2D610A92-A397-426C-905E-AF7B55372D56}">
-															<Language>SFX</Language>
-															<AudioFile>MC\MC_FT_Twig_Snap_18.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="623945152"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="MC_FT_Twig_Snap_18" ID="{2D610A92-A397-426C-905E-AF7B55372D56}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="MC_FT_Twig_Snap_19" ID="{66E640CA-0C3C-4CCB-B66E-7B018658338F}" ShortID="1012903186">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="MC_FT_Twig_Snap_19" ID="{153CB42D-6D56-497B-9F21-9B64E18D8371}">
-															<Language>SFX</Language>
-															<AudioFile>MC\MC_FT_Twig_Snap_19.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="743786188"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="MC_FT_Twig_Snap_19" ID="{153CB42D-6D56-497B-9F21-9B64E18D8371}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -3567,6 +3501,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="MC_Presence" ID="{6CE9C726-52B4-4AE2-A0AA-F6FC93331852}" ShortID="111170645">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>

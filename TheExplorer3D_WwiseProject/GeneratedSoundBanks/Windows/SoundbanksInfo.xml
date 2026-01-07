@@ -55,7 +55,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{768B8160-7FA4-E77D-6EDA-E990D4ABD488}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{B105CAF7-508D-8D10-61DB-4106F3F81758}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -291,10 +291,6 @@
 					<ShortName>MC\MC_FT_Twig_Snap_06.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Twig_Snap_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="449918681" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\MC_FT_Twig_Snap_17.wav</ShortName>
-					<CachePath>SFX/MC/MC_FT_Twig_Snap_17_10C4C929.wem</CachePath>
-				</File>
 				<File Id="451688964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Stone_05.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Stone_05_10C4C929.wem</CachePath>
@@ -386,10 +382,6 @@
 				<File Id="620463504" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Land_Mud_03.wav</ShortName>
 					<CachePath>SFX/MC/MC_Land_Mud_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="623945152" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\MC_FT_Twig_Snap_18.wav</ShortName>
-					<CachePath>SFX/MC/MC_FT_Twig_Snap_18_10C4C929.wem</CachePath>
 				</File>
 				<File Id="630745271" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Stone_09.wav</ShortName>
@@ -494,10 +486,6 @@
 				<File Id="739707459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_FT_Foliage_07.wav</ShortName>
 					<CachePath>SFX/MC/MC_FT_Foliage_07_10C4C929.wem</CachePath>
-				</File>
-				<File Id="743786188" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\MC_FT_Twig_Snap_19.wav</ShortName>
-					<CachePath>SFX/MC/MC_FT_Twig_Snap_19_10C4C929.wem</CachePath>
 				</File>
 				<File Id="745247242" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\MC_Presence_Latex_03.wav</ShortName>
@@ -717,7 +705,7 @@
 						<MediaRef Id="1062354494"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2727768564" Name="MC_Jump" DurationType="OneShot" DurationMin="0.2516998" DurationMax="0.56666666">
+				<Event Id="2727768564" Name="MC_Jump" DurationType="OneShot" DurationMin="0.2516998" DurationMax="0.42378527">
 					<MediaRefs>
 						<MediaRef Id="36647162"/>
 						<MediaRef Id="52738749"/>
@@ -805,11 +793,8 @@
 								<MediaRef Id="289480915"/>
 								<MediaRef Id="440713453"/>
 								<MediaRef Id="444625158"/>
-								<MediaRef Id="449918681"/>
 								<MediaRef Id="579582811"/>
-								<MediaRef Id="623945152"/>
 								<MediaRef Id="661209068"/>
-								<MediaRef Id="743786188"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -821,11 +806,8 @@
 								<MediaRef Id="289480915"/>
 								<MediaRef Id="440713453"/>
 								<MediaRef Id="444625158"/>
-								<MediaRef Id="449918681"/>
 								<MediaRef Id="579582811"/>
-								<MediaRef Id="623945152"/>
 								<MediaRef Id="661209068"/>
-								<MediaRef Id="743786188"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -922,11 +904,8 @@
 								<MediaRef Id="289480915"/>
 								<MediaRef Id="440713453"/>
 								<MediaRef Id="444625158"/>
-								<MediaRef Id="449918681"/>
 								<MediaRef Id="579582811"/>
-								<MediaRef Id="623945152"/>
 								<MediaRef Id="661209068"/>
-								<MediaRef Id="743786188"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -938,16 +917,13 @@
 								<MediaRef Id="289480915"/>
 								<MediaRef Id="440713453"/>
 								<MediaRef Id="444625158"/>
-								<MediaRef Id="449918681"/>
 								<MediaRef Id="579582811"/>
-								<MediaRef Id="623945152"/>
 								<MediaRef Id="661209068"/>
-								<MediaRef Id="743786188"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="358198507" Name="MC_Land_Roll" DurationType="OneShot" DurationMin="0.57023734" DurationMax="0.9166666">
+				<Event Id="358198507" Name="MC_Land_Roll" DurationType="OneShot" DurationMin="0.57023734" DurationMax="0.7166667">
 					<MediaRefs>
 						<MediaRef Id="36647162"/>
 						<MediaRef Id="52738749"/>
@@ -1007,11 +983,8 @@
 								<MediaRef Id="289480915"/>
 								<MediaRef Id="440713453"/>
 								<MediaRef Id="444625158"/>
-								<MediaRef Id="449918681"/>
 								<MediaRef Id="579582811"/>
-								<MediaRef Id="623945152"/>
 								<MediaRef Id="661209068"/>
-								<MediaRef Id="743786188"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -1023,11 +996,8 @@
 								<MediaRef Id="289480915"/>
 								<MediaRef Id="440713453"/>
 								<MediaRef Id="444625158"/>
-								<MediaRef Id="449918681"/>
 								<MediaRef Id="579582811"/>
-								<MediaRef Id="623945152"/>
 								<MediaRef Id="661209068"/>
-								<MediaRef Id="743786188"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -1080,7 +1050,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2385440235" Name="MC_Walk" DurationType="OneShot" DurationMin="0.2516998" DurationMax="0.6666667">
+				<Event Id="2385440235" Name="MC_Walk" DurationType="OneShot" DurationMin="0.2516998" DurationMax="0.46666667">
 					<MediaRefs>
 						<MediaRef Id="52738749"/>
 						<MediaRef Id="115747630"/>
@@ -1196,11 +1166,8 @@
 								<MediaRef Id="289480915"/>
 								<MediaRef Id="440713453"/>
 								<MediaRef Id="444625158"/>
-								<MediaRef Id="449918681"/>
 								<MediaRef Id="579582811"/>
-								<MediaRef Id="623945152"/>
 								<MediaRef Id="661209068"/>
-								<MediaRef Id="743786188"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -1212,11 +1179,8 @@
 								<MediaRef Id="289480915"/>
 								<MediaRef Id="440713453"/>
 								<MediaRef Id="444625158"/>
-								<MediaRef Id="449918681"/>
 								<MediaRef Id="579582811"/>
-								<MediaRef Id="623945152"/>
 								<MediaRef Id="661209068"/>
-								<MediaRef Id="743786188"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1234,5 +1198,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6FA06AA8-08F5-5B58-4824-1C8E5BA87477}</FileHash>
+	<FileHash>{1357A18A-496A-BCD5-7189-5FDE085A9D55}</FileHash>
 </SoundBanksInfo>

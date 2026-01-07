@@ -440,11 +440,14 @@ namespace Gamekit3D
             {
                 landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
                 emoteLandingPlayer.PlayRandomClip();
+
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
             {
                 emoteJumpPlayer.PlayRandomClip();
+
+                GetComponent<PlayerAudioManager>().AudioJump();
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)

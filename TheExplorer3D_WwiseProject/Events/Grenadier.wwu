@@ -47,20 +47,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_SFX_Grenadier_Idle_Metal" ID="{0F410FFE-D946-4204-9DC4-A51D9D7C75B0}">
+				<Event Name="Play_SFX_Grenadier_Idle_Vox" ID="{0F410FFE-D946-4204-9DC4-A51D9D7C75B0}">
 					<ChildrenList>
 						<Action Name="" ID="{D1CB47E3-B3F0-4438-9B76-C93DB884E6C9}" ShortID="824026075">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{189577ED-0CC6-497F-95C5-2294333A1BA4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Probability" Type="Real64" Value="21"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Grenadier_Idle_Metal" ID="{78E5A5DF-EB61-4E75-811B-9B2A685F489A}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Grenadier_Idle_Vox" ID="{9699F4D7-6B80-48EB-A78D-D0B1D8DAE1FF}">
-					<ChildrenList>
-						<Action Name="" ID="{75468899-8102-4E97-8DDF-FFFFC531CFA9}" ShortID="245449199">
+						<Action Name="" ID="{A74BD5E2-45FA-4F7C-B7A3-C8F82F4F3DED}" ShortID="24219178">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="21"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Grenadier_Idle_Vox" ID="{D606A9EF-198E-4CDB-8BFB-D2E2CDAF27DF}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
@@ -100,6 +114,64 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Grenadier_LightBall_LP" ID="{776A3975-7B6D-4D89-9874-5C8046BB51FA}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Grenadier_Death" ID="{5D8F9120-8BC3-403F-83F8-6DFEBED7EF9F}">
+					<ChildrenList>
+						<Action Name="" ID="{5842BB19-21EC-4723-BCFB-CAE0771375FF}" ShortID="736426733">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_DeathAnim" ID="{1D0D3134-6BD0-463D-B781-081C7F40CC90}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FOL_Grenadier_Footsteps_Soft" ID="{A08067FC-0D56-45D2-B788-E36543BA517B}">
+					<ChildrenList>
+						<Action Name="" ID="{CCA049A1-BE01-42D6-A990-A2B85D9F7BC8}" ShortID="521700689">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOL_Grenadier_Footsteps_Soft" ID="{86021C66-7B49-4E8E-96C0-6F4FC2F347C5}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VOX_Grenadier" ID="{31ADEAB1-5625-4AB7-93FA-33DDAA4023DA}">
+					<ChildrenList>
+						<Action Name="" ID="{53BF72D5-62DA-4130-9BDC-CE3AA5B0D3E3}" ShortID="281856844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VOX_Grenadier" ID="{AB5B5683-9DB9-4905-9AF2-F8727DA924D9}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_TurnAnim" ID="{FF26104D-6CD1-4E4A-BA7A-12A16DE0C5B9}">
+					<ChildrenList>
+						<Action Name="" ID="{149147C8-06D6-433D-9416-C6DD0E201BD2}" ShortID="247447535">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_TurnAnim" ID="{69B526F3-2EC9-4155-AA37-A15022345E62}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_Grenadier_Idle_Breath" ID="{85B472BF-E6B7-4A74-B8C0-E15B474F4A01}">
+					<ChildrenList>
+						<Action Name="" ID="{A5426D48-7E1C-401C-810B-CFE4E4206C8E}" ShortID="439023605">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_Idle_Breath_LP" ID="{E3981629-FFC0-4637-B436-C135BEC74EF3}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

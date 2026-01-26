@@ -5,29 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d3630b-79f1-4e02-9c62-d27e903588ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheExplorer3D/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheExplorer3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheExplorer3D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierDeath.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierDeath.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierIdle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierIdle.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierMeleeAttack.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierMeleeAttack.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierWalk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierWalk.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierWalkFast.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierWalkFast.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnLeft135.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnLeft135.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnLeft180.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnLeft180.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnLeft45.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnLeft45.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnLeft90.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnLeft90.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnRight135.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnRight135.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnRight180.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnRight180.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnRight45.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnRight45.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnRight90.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/AnimationClips/Characters/Enemies/Grenadier/@GrenadierTurnRight90.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/Animators/Characters/Gunner.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Art/Animations/Animators/Characters/Gunner.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Prefabs/Characters/Enemies/Grenadier/Grenadier.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Prefabs/Characters/Enemies/Grenadier/Grenadier.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DGamekit/Scripts/Game/Enemies/Grenadier/GrenadierBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3DGamekit/Scripts/Game/Enemies/Grenadier/GrenadierBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio_Slope/ScenesTests/TestAudioFrancoisLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio_Slope/ScenesTests/TestAudioFrancoisLevel1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio_Slope/ScriptsAudio/GrenadierAudioWwise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio_Slope/ScriptsAudio/GrenadierAudioWwise.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0F410FFE-D946-4204-9DC4-A51D9D7C75B0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/0F410FFE-D946-4204-9DC4-A51D9D7C75B0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/9699F4D7-6B80-48EB-A78D-D0B1D8DAE1FF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/9699F4D7-6B80-48EB-A78D-D0B1D8DAE1FF.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Actor-Mixer Hierarchy/WU_Grenadier.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Actor-Mixer Hierarchy/WU_Grenadier.wwu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Attenuations/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Attenuations/Default Work Unit.wwu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Events/Grenadier.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Events/Grenadier.wwu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/Grenadier.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/Grenadier.bnk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/Grenadier.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/Grenadier.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/Init.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/Init.bnk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/Init.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Mac/SoundbanksInfo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/Grenadier.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/Grenadier.bnk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/Grenadier.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/Grenadier.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/Init.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/Init.bnk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/Init.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/GeneratedSoundBanks/Windows/SoundbanksInfo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Master-Mixer Hierarchy/WU_ENEMIES.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Master-Mixer Hierarchy/WU_ENEMIES.wwu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Soundcaster Sessions/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Soundcaster Sessions/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Switches/WU_Grenadier.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/TheExplorer3D_WwiseProject/Switches/WU_Grenadier.wwu" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -48,22 +61,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/grenadier",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/grenadier&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="F:\Applications\2022.3.0f1\Editor\Unity.exe" />
@@ -131,12 +144,15 @@
       <workItem from="1767794802980" duration="595000" />
       <workItem from="1767797988834" duration="2611000" />
       <workItem from="1767805049787" duration="5880000" />
+      <workItem from="1768057007179" duration="10048000" />
+      <workItem from="1768132432447" duration="10256000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />

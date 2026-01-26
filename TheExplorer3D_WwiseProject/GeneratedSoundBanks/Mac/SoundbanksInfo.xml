@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{22045FFB-1EDD-9747-2816-6CABE0781DEE}">
+		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{FB6AD191-280C-D4E4-9DE2-4325AE42AEF0}">
 			<ShortName>Grenadier</ShortName>
 			<Path>Grenadier.bnk</Path>
 			<Media>
@@ -17,13 +17,41 @@
 					<ShortName>Grenadier\FOL_Grenadier_Presences_Walk_02.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Presences_Walk_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="62662769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft90_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft90_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="74678464" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft90_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft90_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="75876714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Shield_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Shield_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="86651055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight180_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight180_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="89252773" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_06.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="90211041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight135_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight135_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="92608285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_05.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="96589123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_09.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="111023004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight45_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight45_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="123464626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\SFX_Grenadier_Idle_LP_V2.wav</ShortName>
@@ -37,6 +65,38 @@
 					<ShortName>Grenadier\FOL_Grenadier_Presences_Walk_07.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Presences_Walk_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="139571981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Pursuit_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Pursuit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="147946400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft45_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft45_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="148750953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="160243379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight180_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight180_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="166343502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="180562977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight90_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight90_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="197860665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\SFX_Grenadier_Death.wav</ShortName>
+					<CachePath>SFX/Grenadier/SFX_Grenadier_Death_10C4C929.wem</CachePath>
+				</File>
+				<File Id="205590293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft45_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft45_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="219684704" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_05.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_05_10C4C929.wem</CachePath>
@@ -45,25 +105,89 @@
 					<ShortName>Grenadier\FOL_Grenadier_Walk_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="244343026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight45_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight45_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275295750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_09.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="293519210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft135_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft135_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="300666135" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_MeleeAttackCore.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_MeleeAttackCore_10C4C929.wem</CachePath>
+				</File>
+				<File Id="313402882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Shield_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Shield_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="345957080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight180_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight180_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="353328349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Death_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Death_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="388876108" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Pursuit_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Pursuit_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="401552948" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_04.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="401820937" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Presences_Walk_06.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Presences_Walk_06_6A8A4ABE.wem</CachePath>
 				</File>
+				<File Id="416175200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Shield_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Shield_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="422558518" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_MeleeAttackFootsteps_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_MeleeAttackFootsteps_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="436833439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_AttackMelee_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_AttackMelee_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="465765593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_AttackMelee_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_AttackMelee_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="486490644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft180_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft180_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="491018275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_07.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="507013131" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_06.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="511112472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\SFX_Grenadier_EnergyBall_LP.wav</ShortName>
 					<CachePath>SFX/Grenadier/SFX_Grenadier_EnergyBall_LP_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="513620923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight90_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight90_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="530808386" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_03.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="536330433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft45_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft45_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="550495779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_MeleeAttackFootsteps_03.wav</ShortName>
@@ -73,6 +197,14 @@
 					<ShortName>Grenadier\FOL_Grenadier_Idle_Metal_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Idle_Metal_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="584652718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft135_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft135_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="599226565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft180_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft180_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="619019673" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Idle_Vox_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Idle_Vox_01_10C4C929.wem</CachePath>
@@ -80,6 +212,22 @@
 				<File Id="633685855" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_07.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="647729259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_08.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="719844304" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight135_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight135_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="759676562" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight135_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight135_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="764571886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="766475131" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_MeleeAttackFootsteps_02.wav</ShortName>
@@ -89,17 +237,49 @@
 					<ShortName>Grenadier\FOL_Grenadier_Walk_10.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="809768497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft90_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft90_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="825582333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_SoftFootsteps_10.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_SoftFootsteps_10_10C4C929.wem</CachePath>
+				</File>
 				<File Id="854926159" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Walk_04.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="861626341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft180_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft180_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="896428788" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Presences_Walk_05.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Presences_Walk_05_FBE24DC8.wem</CachePath>
 				</File>
+				<File Id="910568753" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight45_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight45_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="917047388" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Presences_Walk_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Presences_Walk_01_A43C07DA.wem</CachePath>
+				</File>
+				<File Id="925972665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Death_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Death_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="931470169" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight45_04.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight45_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="948735936" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnRight90_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnRight90_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="948760201" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_AttackMelee_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_AttackMelee_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="955829485" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Idle_Vox_02.wav</ShortName>
@@ -109,9 +289,21 @@
 					<ShortName>Grenadier\FOL_Grenadier_Walk_02.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Walk_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1030186783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Death_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Death_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1038077606" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Presences_Walk_03.wav</ShortName>
 					<CachePath>SFX/Grenadier/FOL_Grenadier_Presences_Walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1061232866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\FOL_Grenadier_TurnLeft135_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/FOL_Grenadier_TurnLeft135_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1066416677" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\VOX_Grenadier_Pursuit_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/VOX_Grenadier_Pursuit_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1068592448" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\FOL_Grenadier_Presences_Walk_04.wav</ShortName>
@@ -128,6 +320,20 @@
 						<MediaRef Id="422558518"/>
 						<MediaRef Id="550495779"/>
 						<MediaRef Id="766475131"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4131994226" Name="Play_FOL_Grenadier_Footsteps_Soft" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.5495672" DurationMax="0.655061">
+					<MediaRefs>
+						<MediaRef Id="92608285"/>
+						<MediaRef Id="148750953"/>
+						<MediaRef Id="166343502"/>
+						<MediaRef Id="275295750"/>
+						<MediaRef Id="401552948"/>
+						<MediaRef Id="491018275"/>
+						<MediaRef Id="507013131"/>
+						<MediaRef Id="647729259"/>
+						<MediaRef Id="764571886"/>
+						<MediaRef Id="825582333"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3037255001" Name="Play_FOL_Grenadier_Footsteps_Walk" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.61986995" DurationMax="0.76007">
@@ -160,6 +366,11 @@
 						<MediaRef Id="300666135"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1318347994" Name="Play_SFX_Grenadier_Death" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.8799896" DurationMax="5.9013486">
+					<MediaRefs>
+						<MediaRef Id="197860665"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3336111879" Name="Play_SFX_Grenadier_Idle_Breath" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="123464626"/>
@@ -182,8 +393,137 @@
 						<MediaRef Id="511112472"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3335774388" Name="Play_SFX_TurnAnim" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.94919485" DurationMax="1.7980152">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3604664336" Id="3883533363"/>
+							<MediaRefs>
+								<MediaRef Id="62662769"/>
+								<MediaRef Id="74678464"/>
+								<MediaRef Id="809768497"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3604664336" Id="1020888412"/>
+							<MediaRefs>
+								<MediaRef Id="111023004"/>
+								<MediaRef Id="244343026"/>
+								<MediaRef Id="910568753"/>
+								<MediaRef Id="931470169"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3604664336" Id="2927824766"/>
+							<MediaRefs>
+								<MediaRef Id="86651055"/>
+								<MediaRef Id="160243379"/>
+								<MediaRef Id="345957080"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3604664336" Id="2279591401" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="147946400"/>
+								<MediaRef Id="205590293"/>
+								<MediaRef Id="536330433"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3604664336" Id="1241393402"/>
+							<MediaRefs>
+								<MediaRef Id="90211041"/>
+								<MediaRef Id="719844304"/>
+								<MediaRef Id="759676562"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3604664336" Id="1153136558"/>
+							<MediaRefs>
+								<MediaRef Id="180562977"/>
+								<MediaRef Id="513620923"/>
+								<MediaRef Id="948735936"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3604664336" Id="1758166467"/>
+							<MediaRefs>
+								<MediaRef Id="486490644"/>
+								<MediaRef Id="599226565"/>
+								<MediaRef Id="861626341"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3604664336" Id="905754327"/>
+							<MediaRefs>
+								<MediaRef Id="293519210"/>
+								<MediaRef Id="584652718"/>
+								<MediaRef Id="1061232866"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="9845879" Name="Play_VOX_Grenadier" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.0833764" DurationMax="2.9113822">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1600642307" Id="3178641716" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="139571981"/>
+								<MediaRef Id="388876108"/>
+								<MediaRef Id="1066416677"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1600642307" Id="568828562"/>
+							<MediaRefs>
+								<MediaRef Id="436833439"/>
+								<MediaRef Id="465765593"/>
+								<MediaRef Id="948760201"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1600642307" Id="2400886981"/>
+							<MediaRefs>
+								<MediaRef Id="75876714"/>
+								<MediaRef Id="313402882"/>
+								<MediaRef Id="416175200"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1600642307" Id="2106196784"/>
+							<MediaRefs>
+								<MediaRef Id="353328349"/>
+								<MediaRef Id="925972665"/>
+								<MediaRef Id="1030186783"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1361203702" Name="Stop_SFX_Grenadier_LightBall_LP_01" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1600642307" Name="SW_VOX_Grenadier">
+					<Switches>
+						<Switch Id="568828562" Name="SW_AttackMelee"/>
+						<Switch Id="1769902645" Name="SW_AttackRange_ShockWave"/>
+						<Switch Id="2106196784" Name="SW_Death"/>
+						<Switch Id="2330164382" Name="SW_AttackRange_Grenade"/>
+						<Switch Id="2400886981" Name="SW_Shield"/>
+						<Switch Id="3178641716" Name="SW_Pursuit"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3604664336" Name="SW_SFX_TurnAnim">
+					<Switches>
+						<Switch Id="905754327" Name="SW_Turn135Left"/>
+						<Switch Id="1020888412" Name="SW_Turn45Right"/>
+						<Switch Id="1153136558" Name="SW_Turn90Right"/>
+						<Switch Id="1241393402" Name="SW_Turn135Right"/>
+						<Switch Id="1758166467" Name="SW_Turn180Left"/>
+						<Switch Id="2279591401" Name="SW_Turn45Left"/>
+						<Switch Id="2927824766" Name="SW_Turn180Right"/>
+						<Switch Id="3883533363" Name="SW_Turn90Left"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B77A7E08-D57C-7D1E-07D8-4C11954A5A52}">
 			<ShortName>Init</ShortName>
@@ -205,6 +545,28 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<SwitchGroups>
+				<SwitchGroup Id="1600642307" Name="SW_VOX_Grenadier">
+					<Switches>
+						<Switch Id="568828562" Name="SW_AttackMelee"/>
+						<Switch Id="1769902645" Name="SW_AttackRange_ShockWave"/>
+						<Switch Id="2106196784" Name="SW_Death"/>
+						<Switch Id="2330164382" Name="SW_AttackRange_Grenade"/>
+						<Switch Id="2400886981" Name="SW_Shield"/>
+						<Switch Id="3178641716" Name="SW_Pursuit"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3604664336" Name="SW_SFX_TurnAnim">
+					<Switches>
+						<Switch Id="905754327" Name="SW_Turn135Left"/>
+						<Switch Id="1020888412" Name="SW_Turn45Right"/>
+						<Switch Id="1153136558" Name="SW_Turn90Right"/>
+						<Switch Id="1241393402" Name="SW_Turn135Right"/>
+						<Switch Id="1758166467" Name="SW_Turn180Left"/>
+						<Switch Id="2279591401" Name="SW_Turn45Left"/>
+						<Switch Id="2927824766" Name="SW_Turn180Right"/>
+						<Switch Id="3883533363" Name="SW_Turn90Left"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3861009810" Name="FT_Type">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
@@ -220,5 +582,5 @@
 			<Path>MC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{91FB9F73-68AB-73A7-2F93-75E7121687B1}</FileHash>
+	<FileHash>{7976E68E-002E-19D2-DD4E-ADE551961395}</FileHash>
 </SoundBanksInfo>

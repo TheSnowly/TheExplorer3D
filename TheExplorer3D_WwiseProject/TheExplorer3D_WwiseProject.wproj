@@ -25,6 +25,7 @@
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjIxNzU3IiBtYXNrPSJQUEFYNDcyNCIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMDUtMDEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjYtMDUtMDEiICAvPjxsaWNlbnNlIGlkPSI3MCIgbmFtZT0iSW5kaWUgTGljZW5zZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCIgZXhwaXJlcz0iMjAyNi0wNS0wMSIgIC8+PC9wcm9qZWN0Pg==|aQ7coGq9TMXPA4ew9fV5vDKf1OfV4XYrKJnS9CFO1HyAnM5smgHmgHv0+uDEVn6hd8Jp+tyx6e83UXVCuIGNsb5pWU26sCz80zeDrjeDK8d6M6EDdyBMV/54bLrnVAeDsGsdxMTl6npSIfwLXz/ogO8TIkzaiOCBkihuV7tnk9I0iJAXm4kUul26CQKV09DdHnDkp+EnXG8tRJsjoGtHgSEIlAZRc6uWKtctUEUzaGmJdjx+Fx+2vmKNZGEdXrX/NdPj/dkz/680Rss8VeV4skoLgk22kl562asAXiWquImVxF24hqtU7udtEthqdfnezJyckAPjheMEcSqwGSdvSQ=="/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>

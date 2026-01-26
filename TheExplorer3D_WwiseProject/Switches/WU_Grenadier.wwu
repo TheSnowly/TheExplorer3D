@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CB27933C-25D2-4865-9ACD-AAE9E70534BA}" SchemaVersion="110" RootDocumentID="{1168EF81-A44E-4C60-8F1B-8347FE269919}" ParentDocumentID="{05099248-09C8-45B4-96AF-B5E39232FB53}">
 	<Switches>
-		<WorkUnit Name="WU_Grenadier" ID="{CB27933C-25D2-4865-9ACD-AAE9E70534BA}" OwnerID="{05099248-09C8-45B4-96AF-B5E39232FB53}" PersistMode="Nested"/>
+		<WorkUnit Name="WU_Grenadier" ID="{CB27933C-25D2-4865-9ACD-AAE9E70534BA}" OwnerID="{05099248-09C8-45B4-96AF-B5E39232FB53}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="SW_VOX_Grenadier" ID="{CFE77DD2-9E63-453B-9A8C-ACC96B33F5D7}">
+					<ChildrenList>
+						<Switch Name="SW_Death" ID="{D13975DA-9C50-422A-AA1D-C3659C0032AF}"/>
+						<Switch Name="SW_Shield" ID="{C1621F98-D038-4F2A-8E4B-4C3A41BCCDD4}"/>
+						<Switch Name="SW_AttackMelee" ID="{43F2562A-B4A6-4F6E-8E21-D09116458CBF}"/>
+						<Switch Name="SW_Pursuit" ID="{29A3AE1E-DF18-44B0-B84A-FEF0420A58FF}"/>
+						<Switch Name="SW_AttackRange_Grenade" ID="{F61A872D-79A0-479D-BF45-E47302EB5D94}"/>
+						<Switch Name="SW_AttackRange_ShockWave" ID="{39EDC682-F3AE-40D2-AACA-E51950EC3256}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="SW_SFX_TurnAnim" ID="{156B5832-F811-4C56-8C0C-20A4C4CE41DC}">
+					<ChildrenList>
+						<Switch Name="SW_Turn45Left" ID="{DB1C8D58-694B-416E-B6BC-12E1F8BFA414}"/>
+						<Switch Name="SW_Turn90Left" ID="{1ED8ED0E-6EA1-4904-A3B2-6926D10D5381}"/>
+						<Switch Name="SW_Turn135Left" ID="{D8D7E5CA-77F2-46EE-8622-37DF864B20FD}"/>
+						<Switch Name="SW_Turn180Left" ID="{4FBAACAC-00EF-400A-ADF1-AF4B4B2EB467}"/>
+						<Switch Name="SW_Turn45Right" ID="{FF939025-55D1-45AD-99C8-337A035867FA}"/>
+						<Switch Name="SW_Turn90Right" ID="{94B815A8-449B-4F4A-B999-4405319471E1}"/>
+						<Switch Name="SW_Turn135Right" ID="{12307685-B500-477A-9271-93DF04474C23}"/>
+						<Switch Name="SW_Turn180Right" ID="{92F4D256-5483-4466-A403-4B8C80B63406}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

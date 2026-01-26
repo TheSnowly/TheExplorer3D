@@ -14,13 +14,17 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_FOL_ATTACKMELEEFOOTSTEPS = 2291827489U;
+        static const AkUniqueID PLAY_FOL_GRENADIER_FOOTSTEPS_SOFT = 4131994226U;
         static const AkUniqueID PLAY_FOL_GRENADIER_FOOTSTEPS_WALK = 3037255001U;
         static const AkUniqueID PLAY_FOL_GRENADIER_PRESENCES_WALK = 1615984476U;
         static const AkUniqueID PLAY_SFX_ATTACKMELEECORE = 565748451U;
+        static const AkUniqueID PLAY_SFX_GRENADIER_DEATH = 1318347994U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_BREATH = 3336111879U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_METAL = 162338938U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_VOX = 4067060800U;
         static const AkUniqueID PLAY_SFX_GRENADIER_LIGHTBALL_LP = 3960731846U;
+        static const AkUniqueID PLAY_SFX_TURNANIM = 3335774388U;
+        static const AkUniqueID PLAY_VOX_GRENADIER = 9845879U;
         static const AkUniqueID STOP_SFX_GRENADIER_LIGHTBALL_LP_01 = 1361203702U;
     } // namespace EVENTS
 
@@ -38,6 +42,38 @@ namespace AK
                 static const AkUniqueID STONE = 1216965916U;
             } // namespace SWITCH
         } // namespace FT_TYPE
+
+        namespace SW_SFX_TURNANIM
+        {
+            static const AkUniqueID GROUP = 3604664336U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID SW_TURN45LEFT = 2279591401U;
+                static const AkUniqueID SW_TURN45RIGHT = 1020888412U;
+                static const AkUniqueID SW_TURN90LEFT = 3883533363U;
+                static const AkUniqueID SW_TURN90RIGHT = 1153136558U;
+                static const AkUniqueID SW_TURN135LEFT = 905754327U;
+                static const AkUniqueID SW_TURN135RIGHT = 1241393402U;
+                static const AkUniqueID SW_TURN180LEFT = 1758166467U;
+                static const AkUniqueID SW_TURN180RIGHT = 2927824766U;
+            } // namespace SWITCH
+        } // namespace SW_SFX_TURNANIM
+
+        namespace SW_VOX_GRENADIER
+        {
+            static const AkUniqueID GROUP = 1600642307U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID SW_ATTACKMELEE = 568828562U;
+                static const AkUniqueID SW_ATTACKRANGE_GRENADE = 2330164382U;
+                static const AkUniqueID SW_ATTACKRANGE_SHOCKWAVE = 1769902645U;
+                static const AkUniqueID SW_DEATH = 2106196784U;
+                static const AkUniqueID SW_PURSUIT = 3178641716U;
+                static const AkUniqueID SW_SHIELD = 2400886981U;
+            } // namespace SWITCH
+        } // namespace SW_VOX_GRENADIER
 
     } // namespace SWITCHES
 

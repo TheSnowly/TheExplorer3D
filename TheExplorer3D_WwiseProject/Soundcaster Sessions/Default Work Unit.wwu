@@ -30,17 +30,24 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_SFX_Grenadier_Idle_Metal" ID="{0F410FFE-D946-4204-9DC4-A51D9D7C75B0}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<ObjectRef Name="Play_SFX_Grenadier_Idle_Vox" ID="{0F410FFE-D946-4204-9DC4-A51D9D7C75B0}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_SFX_Grenadier_Idle_Vox" ID="{9699F4D7-6B80-48EB-A78D-D0B1D8DAE1FF}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
-							<Position X="4" Y="0"/>
+							<ObjectRef Name="Play_VOX_Grenadier" ID="{31ADEAB1-5625-4AB7-93FA-33DDAA4023DA}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_TurnAnim" ID="{FF26104D-6CD1-4E4A-BA7A-12A16DE0C5B9}" WorkUnitID="{2689AE75-7842-4672-A4FF-EAD0924971B7}"/>
+							<Position X="4" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="SW_AttackMelee" ID="{43F2562A-B4A6-4F6E-8E21-D09116458CBF}"/>
+						<CurrentSwitchRef Name="SW_Turn45Left" ID="{DB1C8D58-694B-416E-B6BC-12E1F8BFA414}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

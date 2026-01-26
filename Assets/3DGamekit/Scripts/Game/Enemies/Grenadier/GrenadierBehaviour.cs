@@ -28,6 +28,7 @@ namespace Gamekit3D
 
         public static readonly int hashIdleState = Animator.StringToHash("GrenadierIdle");
 
+        public GameObject AS_GrenadierVox;
         public EnemyController controller { get { return m_EnemyController; } }
 
         public TargetScanner playerScanner;
@@ -67,8 +68,15 @@ namespace Gamekit3D
         protected Color m_OriginalCoreMaterial;
 
         protected float m_ShieldActivationTime;
-
-
+        
+        public AK.Wwise.Switch SW_Turn45Left;
+        public AK.Wwise.Switch SW_Turn45Right;
+        public AK.Wwise.Switch SW_Turn90Left;
+        public AK.Wwise.Switch SW_Turn90Right;
+        public AK.Wwise.Switch SW_Turn135Left;
+        public AK.Wwise.Switch SW_Turn135Right;
+        public AK.Wwise.Switch SW_Turn180Left;
+        public AK.Wwise.Switch SW_Turn180Right;
         void OnEnable()
         {
             m_EnemyController = GetComponent<EnemyController>();
@@ -109,6 +117,8 @@ namespace Gamekit3D
         public void StartPursuit()
         {
             m_EnemyController.animator.SetBool(hashInPursuitParam, true);
+            GrenadierAudioWwise.Instance.SetVoxPursuit();
+            GrenadierAudioWwise.Instance.Grenadier_Vox_Play();
         }
 
         public void StopPursuit()
@@ -136,11 +146,14 @@ namespace Gamekit3D
         public void Die()
         {
             deathAudioPlayer.PlayRandomClip();
+            GrenadierAudioWwise.Instance.Grenadier_LightBall_Stop();
             m_EnemyController.animator.SetTrigger(hashDeathParam);
         }
 
         public void ActivateShield()
         {
+            GrenadierAudioWwise.Instance.SetVoxShield();
+            GrenadierAudioWwise.Instance.Grenadier_Vox_Play();
             shield.SetActive(true);
             m_ShieldActivationTime = 3.0f;
             m_Damageable.SetColliderState(false);
@@ -148,6 +161,7 @@ namespace Gamekit3D
 
         public void DeactivateShield()
         {
+            GrenadierAudioWwise.Instance.SetVoxPursuit();
             shield.SetActive(false);
             m_Damageable.SetColliderState(true);
         }
@@ -180,6 +194,30 @@ namespace Gamekit3D
             grenadeLauncher.Attack(target);
         }
 
+        private void SetTurnSwitch(float angle)
+        {
+            // Droite = angle positif, Gauche = angle négatif
+            bool isRight = angle > 0f;
+            float absAngle = Mathf.Abs(angle);
+
+            if (absAngle < 60f)
+            {
+                (isRight ? SW_Turn45Right : SW_Turn45Left).SetValue(AS_GrenadierVox);
+            }
+            else if (absAngle < 110f)
+            {
+                (isRight ? SW_Turn90Right : SW_Turn90Left).SetValue(AS_GrenadierVox);
+            }
+            else if (absAngle < 160f)
+            {
+                (isRight ? SW_Turn135Right : SW_Turn135Left).SetValue(AS_GrenadierVox);
+            }
+            else
+            {
+                (isRight ? SW_Turn180Right : SW_Turn180Left).SetValue(AS_GrenadierVox);
+            }
+        }
+        
         public OrientationState OrientTowardTarget()
         {
             Vector3 v = m_Target.transform.position - transform.position;
@@ -188,16 +226,20 @@ namespace Gamekit3D
 
             float angle = Vector3.SignedAngle(transform.forward, v, Vector3.up);
 
+            // Cas : angle très faible → rotation directe, pas d’anim, pas de son
             if (Mathf.Abs(angle) < 20.0f)
-            { //for a very small angle, we directly rotate the model
+            {
                 transform.forward = v.normalized;
-                // if the player was above the player we return false to tell the Idle state 
-                // that we want a "shield up" attack as our punch attack wouldn't reach it.
-                return above ? OrientationState.ORIENTED_ABOVE : OrientationState.ORIENTED_FACE; 
+                return above ? OrientationState.ORIENTED_ABOVE : OrientationState.ORIENTED_FACE;
             }
 
+            // 🎧 AUDIO : on choisit le bon switch AVANT l’anim
+            SetTurnSwitch(angle);
+
+            // 🎬 ANIMATION
             m_EnemyController.animator.SetFloat(hashTurnAngleParam, angle / 180.0f);
             m_EnemyController.animator.SetTrigger(hashTurnTriggerParam);
+
             return OrientationState.IN_TRANSITION;
         }
 

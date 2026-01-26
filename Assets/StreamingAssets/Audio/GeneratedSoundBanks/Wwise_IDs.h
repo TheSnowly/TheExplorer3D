@@ -45,7 +45,6 @@ namespace AK
             {
                 static const AkUniqueID DIRT = 2195636714U;
                 static const AkUniqueID GRASS = 4248645337U;
-                static const AkUniqueID MUD = 712897245U;
                 static const AkUniqueID STONE = 1216965916U;
             } // namespace SWITCH
         } // namespace FT_TYPE

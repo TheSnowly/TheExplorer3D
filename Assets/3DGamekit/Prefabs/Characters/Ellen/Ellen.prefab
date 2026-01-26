@@ -22123,7 +22123,7 @@ GameObject:
   - component: {fileID: 2272400683394321353}
   m_Layer: 9
   m_Name: Ellen
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22153,7 +22153,7 @@ Transform:
   - {fileID: 4031617287498508}
   - {fileID: 9002528512090170298}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95065152071237234
 Animator:

@@ -183,13 +183,23 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
+									<ObjectRef Name="MC_Presence_Metal_High_Intensity" ID="{0BD8E0FA-2E73-427A-8E5D-3F1292FEBDCD}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{58D4FC7D-93CA-4B55-94C8-684B051ACB13}" ShortID="466903199">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
 									<ObjectRef Name="MC_Presence_Metal_Mid_Intensity" ID="{0C811075-B475-4A39-8776-DAAAD0A4F8BA}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{9BABCD88-AE04-498C-9FA1-02975D475B3F}" ShortID="939879211">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.35"/>
+								<Property Name="Delay" Type="Real64" Value="0.45"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

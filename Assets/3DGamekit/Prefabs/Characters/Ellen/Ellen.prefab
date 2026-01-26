@@ -22153,7 +22153,7 @@ Transform:
   - {fileID: 4031617287498508}
   - {fileID: 9002528512090170298}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95065152071237234
 Animator:
@@ -22417,6 +22417,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: abdc9c5df05eefc449d27a84a9b7393a,
       type: 2}
+  presenceEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 07eabbaf6a8aef846b9a260212f8cb3c,
+      type: 2}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0
@@ -22504,7 +22509,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6384172175226118530}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5999355, y: -3.6200037, z: -12.372955}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

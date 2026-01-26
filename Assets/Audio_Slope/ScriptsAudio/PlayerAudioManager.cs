@@ -16,6 +16,7 @@ public class PlayerAudioManager : MonoBehaviour
     public AK.Wwise.Event hurtEvent;
     public AK.Wwise.Event deathEvent;
     public AK.Wwise.Event presenceEvent;
+    public AK.Wwise.Event respawnEvent;
 
     //set the surface type the player is walking on 
     void SetFTSurfaceType()
@@ -28,6 +29,11 @@ public class PlayerAudioManager : MonoBehaviour
 
             AkSoundEngine.SetSwitch("FT_Type", surfaceType.surfaceType.ToString(), this.gameObject);
         }
+    }
+
+    public void AudioRespawn()
+    {
+        respawnEvent.Post(gameObject);
     }
 
     public void AudioWalk()

@@ -6181,7 +6181,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: b86bedba3016387469ab3ac227a45992, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22123,7 +22122,7 @@ GameObject:
   - component: {fileID: 2272400683394321353}
   m_Layer: 9
   m_Name: Ellen
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22421,6 +22420,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 07eabbaf6a8aef846b9a260212f8cb3c,
+      type: 2}
+  respawnEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5b46c4f5934bfc54b81ed7ec2526488e,
       type: 2}
 --- !u!1 &1991646998098166
 GameObject:

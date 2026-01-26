@@ -609,7 +609,10 @@ namespace Gamekit3D
             
             // Start the respawn graphic effects.
             spawn.StartEffect();
-            
+
+            //start repawning sound
+            GetComponent<PlayerAudioManager>().AudioRespawn();
+
             // Wait for the screen to fade in.
             // Currently it is not important to yield here but should some changes occur that require waiting until a respawn has finished this will be required.
             yield return StartCoroutine(ScreenFader.FadeSceneIn());

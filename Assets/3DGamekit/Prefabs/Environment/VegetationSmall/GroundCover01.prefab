@@ -12,14 +12,14 @@ GameObject:
   - component: {fileID: 33187937738271774}
   - component: {fileID: 23959952348987956}
   - component: {fileID: 114614469232401268}
-  - component: {fileID: 7483202578201617670}
-  - component: {fileID: 919628398439519364}
+  - component: {fileID: 8228686835507487015}
+  - component: {fileID: 3771213832215488473}
   m_Layer: 11
   m_Name: GroundCover01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 64
   m_IsActive: 1
 --- !u!4 &4586482615676282
 Transform:
@@ -30,11 +30,11 @@ Transform:
   m_GameObject: {fileID: 1464020768193850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.58511114, y: 0.5851101, z: 0.5851109}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 181
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33187937738271774
 MeshFilter:
@@ -102,7 +102,7 @@ MonoBehaviour:
   maxScale: 1
   gameObjects:
   - {fileID: 1464020768193850}
---- !u!114 &7483202578201617670
+--- !u!114 &8228686835507487015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,7 +119,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 720f0669bc46c0e4699e6e92eec060cb,
       type: 2}
---- !u!65 &919628398439519364
+--- !u!65 &3771213832215488473
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,14 +129,14 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2147470647
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.30118, y: 0.81539965, z: 1.7468246}
-  m_Center: {x: 0.078832515, y: 0.28907737, z: 0.022797331}
+  m_Size: {x: 0.8188969, y: 0.8153995, z: 0.67055476}
+  m_Center: {x: 0.051542237, y: 0.2890738, z: 0.03033575}

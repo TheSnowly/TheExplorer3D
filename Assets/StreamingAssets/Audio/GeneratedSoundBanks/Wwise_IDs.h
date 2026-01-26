@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID MC_LAND = 2166447543U;
         static const AkUniqueID MC_LAND_ROLL = 358198507U;
         static const AkUniqueID MC_PRESENCE = 4218582063U;
+        static const AkUniqueID MC_RESPAWN = 748388956U;
         static const AkUniqueID MC_SCUFF = 1959425923U;
         static const AkUniqueID MC_WALK = 2385440235U;
         static const AkUniqueID PLAY_FOL_ATTACKMELEEFOOTSTEPS = 2291827489U;
@@ -31,11 +32,11 @@ namespace AK
         static const AkUniqueID PLAY_SFX_ATTACKMELEECORE = 565748451U;
         static const AkUniqueID PLAY_SFX_GRENADIER_DEATH = 1318347994U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_BREATH = 3336111879U;
-        static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_METAL = 162338938U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_VOX = 4067060800U;
         static const AkUniqueID PLAY_SFX_GRENADIER_LIGHTBALL_LP = 3960731846U;
         static const AkUniqueID PLAY_SFX_TURNANIM = 3335774388U;
         static const AkUniqueID PLAY_VOX_GRENADIER = 9845879U;
+        static const AkUniqueID STOP_SFX_GRENADIER_IDLE_BREATH = 854495237U;
         static const AkUniqueID STOP_SFX_GRENADIER_LIGHTBALL_LP_01 = 1361203702U;
     } // namespace EVENTS
 

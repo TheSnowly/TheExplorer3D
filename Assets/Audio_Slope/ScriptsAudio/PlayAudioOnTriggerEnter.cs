@@ -8,9 +8,6 @@ public class PlayAudioOnTriggerEnter : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
-        {
-            eventToPlay.Post(gameObject);
-        }
+       eventToPlay.Post(other.gameObject);
     }
 }

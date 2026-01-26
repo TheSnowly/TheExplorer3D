@@ -4115,6 +4115,122 @@
 										<ActiveSource Name="MC_Combo_End" ID="{AEC82379-05B9-4911-8B16-0FC98D9BFC04}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="MC_Hit" ID="{0B0EC187-2ACD-4675-9013-E7A1ADDFF723}" ShortID="741558063">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{751F0D80-ECA4-4A23-A44F-518B1662DF17}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_MC_Hit_01" ID="{E7974073-7BE1-4094-9B3C-C6742AF4B5CB}" ShortID="565168557">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Hit_01" ID="{85A95EED-7E86-4CB8-B04A-E452B4DBC37F}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper\SFX_MC_Hit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="963640992"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Hit_01" ID="{85A95EED-7E86-4CB8-B04A-E452B4DBC37F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Hit_02" ID="{B679F28B-C2EC-4299-95A1-05F87CFF7290}" ShortID="885321198">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Hit_02" ID="{44C3803D-95ED-4C1F-A286-D2E25A0A180D}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper\SFX_MC_Hit_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="933982242"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Hit_02" ID="{44C3803D-95ED-4C1F-A286-D2E25A0A180D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Hit_03" ID="{668BB3EE-D806-4355-BBD8-55FB7F678781}" ShortID="935233655">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Hit_03" ID="{E227FEFF-8FC7-464F-8DEE-75DDDCFC258B}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper\SFX_MC_Hit_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="233164369"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Hit_03" ID="{E227FEFF-8FC7-464F-8DEE-75DDDCFC258B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_MC_Hit_04" ID="{5B651D88-3EFF-4238-9F75-6194ACA9C13F}" ShortID="92506215">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_MC_Hit_04" ID="{03C808FD-D6A0-4E74-8E2A-ADE29327A877}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper\SFX_MC_Hit_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="171428397"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_MC_Hit_04" ID="{03C808FD-D6A0-4E74-8E2A-ADE29327A877}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="MC_Voice" ID="{C475A6AE-CADC-41D5-B013-623D7F502660}" ShortID="600413472">

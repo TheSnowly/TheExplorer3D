@@ -1,6 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" SchemaVersion="110" RootDocumentID="{857A9DDF-BBED-47D4-B259-71C54BAA0BFB}" ParentDocumentID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}">
 	<Events>
-		<WorkUnit Name="WU_Champer" ID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" OwnerID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" PersistMode="Nested"/>
+		<WorkUnit Name="WU_Champer" ID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" OwnerID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Chomper_FT_Walk" ID="{FAE24E34-5895-4B7A-8419-1212B23D7A51}">
+					<ChildrenList>
+						<Action Name="" ID="{EC687D10-223D-44CE-922E-E5DEAC7F3209}" ShortID="810632429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_FT_Walk" ID="{B8D56A58-746D-4306-800A-247822AA8BC1}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chomper_FT_Run" ID="{15D21E02-3D91-440E-A62A-C63194927434}">
+					<ChildrenList>
+						<Action Name="" ID="{30AE7655-58A4-4292-AE0F-5E851799276E}" ShortID="529001433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_FT_Run" ID="{538FB5FC-1A0D-4B10-98FC-77989B74A64E}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chomper_Attack_Bite" ID="{29AEF6E5-FA47-47A2-B614-C8BC90B6F010}">
+					<ChildrenList>
+						<Action Name="" ID="{48EDD5B3-C26A-4974-910D-23086F3F080A}" ShortID="231995621">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Attack_Bite" ID="{2EF2CA49-E1F4-44AB-A103-04B294196684}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chomper_Attack_Charge" ID="{507F62E6-1A02-43CF-98C5-1C7F7AAE816B}">
+					<ChildrenList>
+						<Action Name="" ID="{9F619059-8265-473B-AADD-707F4EB39008}" ShortID="315997461">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Attack_Charge" ID="{7A1CB211-6AB4-45C7-8564-89D6BDBD3235}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chomper_Voice_Attack" ID="{41CEB510-F9DB-4F62-8861-D2F3B198D6E7}">
+					<ChildrenList>
+						<Action Name="" ID="{CECC5440-B222-42E4-987D-534AB8679C79}" ShortID="707489593">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Voice_Attack" ID="{424CD8B9-DFA1-469C-99F4-08E76C8E768B}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chomper_Death" ID="{3F09BC83-7237-4066-8E79-C5C682F0E26B}">
+					<ChildrenList>
+						<Action Name="" ID="{644065F1-F7E1-4410-8268-57E1B4296AE8}" ShortID="800441310">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{67FC525F-6D7A-4212-8B20-4E38AF613A3F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Voice_Death" ID="{BB6E977E-A729-4C05-A353-7FA5E106BE6C}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{55798E20-6BBB-4F80-90EE-403A2C164C32}" ShortID="207839051">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Hit" ID="{0B0EC187-2ACD-4675-9013-E7A1ADDFF723}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8B3B62E2-68FC-4C6C-A2F5-489DF6EA4AA7}" ShortID="186775114">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Hurt" ID="{AFE06DC5-825B-43C3-919B-F1C528731017}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chomper_Voice_Idle" ID="{7E418337-8514-424D-93D0-A1F1D7B64604}">
+					<ChildrenList>
+						<Action Name="" ID="{B6B554D3-2510-45B5-81D1-59DB25271C5F}" ShortID="420984819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Voice_Idle" ID="{4BFC66FE-D0DE-4242-96BF-F273D9881F88}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chomper_Voice_Spotted" ID="{311EC5AC-7766-4E6E-9A73-C6F7E7F7C5B3}">
+					<ChildrenList>
+						<Action Name="" ID="{1C084C3F-BC5B-471D-90C2-27D97BC3E466}" ShortID="202231375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Voice_Spotted" ID="{84D0C733-0BC7-4A4D-B179-C30E900B51BB}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

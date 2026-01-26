@@ -6,6 +6,13 @@
 				<Property Name="Color" Type="int16" Value="23"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="Chomper" ID="{B9D45697-F578-4394-9EC3-2956A5D3FFEF}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

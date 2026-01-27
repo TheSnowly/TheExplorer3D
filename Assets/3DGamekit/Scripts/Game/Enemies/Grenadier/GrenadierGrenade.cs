@@ -90,6 +90,7 @@ namespace Gamekit3D
             {
                 explosionPlayer.transform.SetParent(null);
                 explosionPlayer.PlayRandomClip();
+                GrenadierAudioWwise.Instance.Grenadier_BallExplosion_Play(gameObject);
             }
 
             int count = Physics.OverlapSphereNonAlloc(transform.position, explosionRadius, m_ExplosionHitCache,
@@ -137,7 +138,8 @@ namespace Gamekit3D
         protected virtual void OnCollisionEnter(Collision other)
         {
             if (bouncePlayer != null)
-                bouncePlayer.PlayRandomClip();
+                bouncePlayer.PlayRandomClip(); 
+            GrenadierAudioWwise.Instance.Grenadier_BallBounce_Play(gameObject);
         }
 
         private Vector3 GetVelocity(Vector3 target)

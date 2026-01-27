@@ -88,7 +88,7 @@
 						<Action Name="" ID="{9F74EC43-91A3-4214-8EB1-6B27CEFB6A81}" ShortID="323754671">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Grenadier_AttackMeleeCore" ID="{580BFC1C-2324-4288-8A0C-8BCD4B9E6C8E}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+									<ObjectRef Name="SFX_Grenadier_AttackMelee" ID="{E0AC4DAC-53B6-4721-9A87-E7A902D0224A}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -124,7 +124,21 @@
 						<Action Name="" ID="{5842BB19-21EC-4723-BCFB-CAE0771375FF}" ShortID="736426733">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Grenadier_DeathAnim" ID="{1D0D3134-6BD0-463D-B781-081C7F40CC90}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+									<ObjectRef Name="FOL_Grenadier_Death_Presences" ID="{1D0D3134-6BD0-463D-B781-081C7F40CC90}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4F6CD95D-ECE1-40A5-AF15-9AC4F67FB261}" ShortID="870102746">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_DeathEnergy" ID="{DC4A6817-EB1E-474A-8670-002557569516}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E95B4D31-E3F9-4770-A469-B1A50342870D}" ShortID="36103710">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_DeathWave" ID="{AC13BD6E-0C73-4391-B96E-DE4955409E86}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -172,6 +186,89 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Grenadier_Idle_Breath_LP" ID="{E3981629-FFC0-4637-B436-C135BEC74EF3}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Shockwave" ID="{C3A58BA0-5022-4EB4-8D15-B3EA254D47DF}">
+					<ChildrenList>
+						<Action Name="" ID="{DE8711F9-0B83-4C1F-8B28-A554C794370D}" ShortID="437654131">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOL_Grenadier_ShockWave_Presences" ID="{309B3400-3DFB-417A-8058-A0FD8775EC0C}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5E45063B-4265-485C-9D89-7A1D7EE57B14}" ShortID="279153024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_ShockWave_Load" ID="{B5C2E7C2-B317-4D61-B094-480B4FF5A240}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2AC7CEFC-8320-49D7-947B-23DBE9DD477F}" ShortID="805283184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_ShockWave_Wave" ID="{115EA3B2-0DF5-424F-A3B4-88E15BEE8CBD}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_TakeDamage" ID="{3BAC317C-038E-4CF8-B2DF-D82A11FECC62}">
+					<ChildrenList>
+						<Action Name="" ID="{CCB4EE5A-F4A0-4D8D-90A2-540B36E21870}" ShortID="135163758">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_TakeDamageParticles" ID="{0CAF75F7-643F-4F1D-8B6C-1EEAE814AB14}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F700C0B0-9B51-43C6-81C2-F88428ED290E}" ShortID="823740874">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOL_Grenadier_Presences_TakeDamage" ID="{4BABAEE6-57C1-43F4-9622-2CD6B57E1EBB}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Grenadier_RangeAttack" ID="{7EFC00C7-AB73-420A-916A-555BFB9BA64E}">
+					<ChildrenList>
+						<Action Name="" ID="{705098F8-DFC3-4245-B2B6-DDDC7AD0EDEB}" ShortID="842807878">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_RangeAttackCore" ID="{0BDEAB03-FA1C-492F-860F-865FC039ED95}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{999EDA90-AC80-4622-9677-32055D40F22A}" ShortID="291845158">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOL_Grenadier_RangeAttack_Presences" ID="{BDA814B8-0BBE-4137-8876-B63F6969852C}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Grenadier_RangeAttack_BallBounce" ID="{F5532DEF-DCB5-499E-B9E5-B21386577160}">
+					<ChildrenList>
+						<Action Name="" ID="{A77EE5A1-A3CF-42BF-8BF5-CDEE8E1CF482}" ShortID="819016106">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_RangeAttack_BallBounce" ID="{E0FE3327-8AE4-46D6-8516-9B7A5278EE1C}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Grenadier_RangeAttack_BallExplosion" ID="{C4995334-E520-494C-9403-298425D3825B}">
+					<ChildrenList>
+						<Action Name="" ID="{9BF0E5AD-38BE-4E19-82B3-894F9F48A058}" ShortID="362354259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_RangeAttack_BallExplosion" ID="{5C562EF3-1C0A-4259-B581-A3F21DD1AD5F}" WorkUnitID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

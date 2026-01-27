@@ -11,6 +11,7 @@
 						<Switch Name="SW_Pursuit" ID="{29A3AE1E-DF18-44B0-B84A-FEF0420A58FF}"/>
 						<Switch Name="SW_AttackRange_Grenade" ID="{F61A872D-79A0-479D-BF45-E47302EB5D94}"/>
 						<Switch Name="SW_AttackRange_ShockWave" ID="{39EDC682-F3AE-40D2-AACA-E51950EC3256}"/>
+						<Switch Name="SW_TakeDamage" ID="{33D444C1-43B4-4719-8F11-09D6B7D7AC76}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="SW_SFX_TurnAnim" ID="{156B5832-F811-4C56-8C0C-20A4C4CE41DC}">

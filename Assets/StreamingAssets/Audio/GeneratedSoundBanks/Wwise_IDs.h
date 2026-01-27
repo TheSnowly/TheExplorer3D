@@ -17,14 +17,19 @@ namespace AK
         static const AkUniqueID PLAY_FOL_GRENADIER_FOOTSTEPS_SOFT = 4131994226U;
         static const AkUniqueID PLAY_FOL_GRENADIER_FOOTSTEPS_WALK = 3037255001U;
         static const AkUniqueID PLAY_FOL_GRENADIER_PRESENCES_WALK = 1615984476U;
+        static const AkUniqueID PLAY_GRENADIER_SHOCKWAVE = 3939029689U;
+        static const AkUniqueID PLAY_GRENADIER_TAKEDAMAGE = 884913238U;
         static const AkUniqueID PLAY_SFX_ATTACKMELEECORE = 565748451U;
         static const AkUniqueID PLAY_SFX_GRENADIER_DEATH = 1318347994U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_BREATH = 3336111879U;
-        static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_METAL = 162338938U;
         static const AkUniqueID PLAY_SFX_GRENADIER_IDLE_VOX = 4067060800U;
         static const AkUniqueID PLAY_SFX_GRENADIER_LIGHTBALL_LP = 3960731846U;
+        static const AkUniqueID PLAY_SFX_GRENADIER_RANGEATTACK = 1596895987U;
+        static const AkUniqueID PLAY_SFX_GRENADIER_RANGEATTACK_BALLBOUNCE = 3181249561U;
+        static const AkUniqueID PLAY_SFX_GRENADIER_RANGEATTACK_BALLEXPLOSION = 1344656670U;
         static const AkUniqueID PLAY_SFX_TURNANIM = 3335774388U;
         static const AkUniqueID PLAY_VOX_GRENADIER = 9845879U;
+        static const AkUniqueID STOP_SFX_GRENADIER_IDLE_BREATH = 854495237U;
         static const AkUniqueID STOP_SFX_GRENADIER_LIGHTBALL_LP_01 = 1361203702U;
     } // namespace EVENTS
 
@@ -72,6 +77,7 @@ namespace AK
                 static const AkUniqueID SW_DEATH = 2106196784U;
                 static const AkUniqueID SW_PURSUIT = 3178641716U;
                 static const AkUniqueID SW_SHIELD = 2400886981U;
+                static const AkUniqueID SW_TAKEDAMAGE = 3996901420U;
             } // namespace SWITCH
         } // namespace SW_VOX_GRENADIER
 

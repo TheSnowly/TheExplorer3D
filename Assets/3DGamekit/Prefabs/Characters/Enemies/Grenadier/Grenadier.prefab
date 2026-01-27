@@ -95743,10 +95743,36 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 769313ac754b47c44b723da33259f100,
       type: 2}
+  Grenadier_TakeDamage:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: efcced2511ec24f44b313b1f49a66c89,
+      type: 2}
+  Grenadier_RangeAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 95a6f994b1129214d82066abffe074d1,
+      type: 2}
+  Grenadier_BallExplosion:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1ceed61e61f04de40bf60fad5e2a212c,
+      type: 2}
+  Grenadier_BallBounce:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7ba81f928ce0c4c43b23b2a86de331dc,
+      type: 2}
+  Grenadier_ShockWaveAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 700228826bcc4c54ab70e6dcbe202213,
+      type: 2}
   FootLocationLeft: {fileID: 1914846947782772}
   FootLocationRight: {fileID: 1690324998991952}
   AS_GrenadierVox: {fileID: 5125144933350816430}
   AS_SphereAudioEmitter: {fileID: 3998594316974340606}
+  AS_GrenadeRangeAttack: {fileID: 0}
   SW_AttackMelee:
     idInternal: 0
     valueGuidInternal: 
@@ -95788,6 +95814,13 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: aad0ac351de12a44cb4d62304c95c465,
+      type: 2}
+  SW_TakeDamage:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1a36daed772a6bf47adb60d1094bfafa,
       type: 2}
 --- !u!114 &6063050599954478494
 MonoBehaviour:

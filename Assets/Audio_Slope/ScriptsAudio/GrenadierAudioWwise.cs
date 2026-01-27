@@ -21,10 +21,17 @@ public class GrenadierAudioWwise : MonoBehaviour
     [Header("TurnAnim")] public AK.Wwise.Event Grenadier_LightBall_End;
     [Header("TurnAnim")] public AK.Wwise.Event Grenadier_IdleBreath_Stop;
     
+    [Header("TakeDamage")] public AK.Wwise.Event Grenadier_TakeDamage;
+    [Header("RangeAttack")] public AK.Wwise.Event Grenadier_RangeAttack;
+    [Header("BallExplosion")] public AK.Wwise.Event Grenadier_BallExplosion;
+    [Header("BallBounce")] public AK.Wwise.Event Grenadier_BallBounce;
+    [Header("ShockWaveAttack")] public AK.Wwise.Event Grenadier_ShockWaveAttack;
+    
     public GameObject FootLocationLeft;
     public GameObject FootLocationRight;
     public GameObject AS_GrenadierVox;
     public GameObject AS_SphereAudioEmitter;
+    public GameObject AS_GrenadeRangeAttack;
     
     public AK.Wwise.Switch SW_AttackMelee;
     public AK.Wwise.Switch SW_Death;
@@ -32,6 +39,7 @@ public class GrenadierAudioWwise : MonoBehaviour
     public AK.Wwise.Switch SW_AttackRange_ShockWave;
     public AK.Wwise.Switch SW_Pursuit;
     public AK.Wwise.Switch SW_Shield;
+    public AK.Wwise.Switch SW_TakeDamage;
     
     private void Awake()
     {
@@ -63,14 +71,41 @@ public class GrenadierAudioWwise : MonoBehaviour
         Grenadier_DeathAnim.Post(gameObject);
     }
     
+    public void Grenadier_TakeDamage_Play()
+    {
+        SW_TakeDamage.SetValue(AS_GrenadierVox);
+        Grenadier_Vox.Post(AS_GrenadierVox);
+        Grenadier_TakeDamage.Post(gameObject);
+    }
+    
     public void Grenadier_Vox_Play()
     {
         Grenadier_Vox.Post(AS_GrenadierVox);
     }
     
+    public void Grenadier_RangeAttack_Play()
+    {
+        Grenadier_RangeAttack.Post(gameObject);
+    }
+    
+    public void Grenadier_ShockWaveAttack_Play()
+    {
+        Grenadier_ShockWaveAttack.Post(gameObject);
+    }
+    
+    public void Grenadier_BallExplosion_Play(GameObject emitter)
+    {
+        Grenadier_BallExplosion.Post(emitter);
+    }
+    
+    public void Grenadier_BallBounce_Play(GameObject emitter)
+    {
+        Grenadier_BallBounce.Post(emitter);
+    }
+    
     public void Grenadier_FootstepsSoft_Play()
     {
-        Grenadier_FootstepsSoft.Post(gameObject);
+        Grenadier_FootstepsSoft.Post(FootLocationRight);
     }
     
     public void Grenadier_TurnAnim_Play()

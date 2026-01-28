@@ -685,28 +685,28 @@ ModelImporter:
       curves: []
       events:
       - time: 0.15277778
-        functionName: AudioChomperVoiceSpotted
+        functionName: AudioVoiceSpotted
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.6157408
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.6851852
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.75
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
@@ -743,6 +743,20 @@ ModelImporter:
       events:
       - time: 0.50542635
         functionName: Shoot
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.08094436
+        functionName: AudioSpitterAttackCharge
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4991568
+        functionName: AudioSpitterAttackSpit
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

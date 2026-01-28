@@ -85,17 +85,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Chomper_Voice_Idle" ID="{7E418337-8514-424D-93D0-A1F1D7B64604}">
-					<ChildrenList>
-						<Action Name="" ID="{B6B554D3-2510-45B5-81D1-59DB25271C5F}" ShortID="420984819">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Chomper_Voice_Idle" ID="{4BFC66FE-D0DE-4242-96BF-F273D9881F88}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Chomper_Voice_Spotted" ID="{311EC5AC-7766-4E6E-9A73-C6F7E7F7C5B3}">
 					<ChildrenList>
 						<Action Name="" ID="{1C084C3F-BC5B-471D-90C2-27D97BC3E466}" ShortID="202231375">

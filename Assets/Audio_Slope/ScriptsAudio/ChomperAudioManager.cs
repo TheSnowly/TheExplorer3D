@@ -7,7 +7,7 @@ public class ChomperAudioManager : MonoBehaviour
     public AK.Wwise.Event eventChomperAttackBite;
     public AK.Wwise.Event eventChomperAttackCharge;
     public AK.Wwise.Event eventChomperDeath;
-    public AK.Wwise.Event eventChomperFTWalk;
+    public AK.Wwise.Event eventFT;
     public AK.Wwise.Event eventChomperVoiceAttack;
     public AK.Wwise.Event eventChomperVoiceIdle;
     public AK.Wwise.Event eventChomperVoiceSpotted;
@@ -27,9 +27,9 @@ public class ChomperAudioManager : MonoBehaviour
         eventChomperDeath.Post(gameObject);
     }
 
-    public void AudioChomperFTWalk()
+    public void AudioFT()
     {
-        eventChomperFTWalk.Post(gameObject);
+        eventFT.Post(gameObject);
     }
 
     public void AudioChomperVoiceAttack()
@@ -37,12 +37,12 @@ public class ChomperAudioManager : MonoBehaviour
         eventChomperVoiceAttack.Post(gameObject);
     }
 
-    public void AudioChomperVoiceIdle()
+    public void AudioVoiceIdle()
     {
         eventChomperVoiceIdle.Post(gameObject);
     }
 
-    public void AudioChomperVoiceSpotted()
+    public void AudioVoiceSpotted()
     {
         eventChomperVoiceSpotted.Post(gameObject);
     }

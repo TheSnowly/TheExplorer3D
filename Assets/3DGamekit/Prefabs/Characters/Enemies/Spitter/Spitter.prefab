@@ -2789,15 +2789,20 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c9242fd5679807d40b4e4d812ffcd97e,
       type: 2}
+  eventSpitterVoiceIdle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e6009fbae86419d468c6c2cf7e8223c3,
+      type: 2}
   eventSpitterDeath:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: cd5bb2133f35f0d49816cc6195fe8f8c,
       type: 2}
-  eventSpitterFTWalk:
+  eventFT:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 612124bc0bb6490469e941e9f0f79875,
+    WwiseObjectReference: {fileID: 11400000, guid: 26644674a739ddc4e8b21021c0159955,
       type: 2}
 --- !u!114 &4721598750850194700
 MonoBehaviour:

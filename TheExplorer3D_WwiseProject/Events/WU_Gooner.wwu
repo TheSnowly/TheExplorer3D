@@ -36,26 +36,22 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Spitter_Projectile_LP" ID="{7BA94FBC-4CD4-45B7-AD56-A16070995BFF}">
-					<ChildrenList>
-						<Action Name="" ID="{914C43B4-208A-4A38-A77E-0B6868F15DF0}" ShortID="98583502">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Spitter_Projectile_LP" ID="{E3B9FEB5-AB09-4FA4-B0A9-C25303D32626}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Spitter_Projectile_Impact" ID="{9B33B06D-7051-44D6-852B-7641365BD089}">
 					<ChildrenList>
 						<Action Name="" ID="{87B53E8D-D808-42FC-8CD6-558798FFC409}" ShortID="649721933">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Spitter_Projectile_Impact" ID="{19C893F5-2F0D-4BF2-854F-BF87D5BF36FD}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8AF81E21-821A-4165-B7FB-88194F23CD72}" ShortID="823501509">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Spitter_Projectile_LP" ID="{E3B9FEB5-AB09-4FA4-B0A9-C25303D32626}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

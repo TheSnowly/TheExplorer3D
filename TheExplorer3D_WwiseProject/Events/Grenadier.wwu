@@ -232,6 +232,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{82BF9C8B-21CA-401A-BEA1-AF0B85682286}" ShortID="371623992">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Hit" ID="{0B0EC187-2ACD-4675-9013-E7A1ADDFF723}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SFX_Grenadier_RangeAttack" ID="{7EFC00C7-AB73-420A-916A-555BFB9BA64E}">

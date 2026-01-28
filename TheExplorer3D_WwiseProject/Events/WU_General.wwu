@@ -5,13 +5,21 @@
 			<ChildrenList>
 				<Event Name="ChomperSpitter_FT" ID="{9293396D-1076-4B7C-B3CD-7C8ABA3B08B0}">
 					<ChildrenList>
-						<Action Name="" ID="{00442EB3-A322-42ED-9E17-7BAC6ADE34CC}" ShortID="334472200">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
+						<Action Name="" ID="{CECF87D5-CD4A-452A-9C28-A32F94D21884}" ShortID="438108384">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ChomperSpitter_FT" ID="{003B94CE-A11D-4921-97EA-A121E648D32A}" WorkUnitID="{923BF706-604F-4FE2-AC08-7D9AFAAC056E}"/>
+									<ObjectRef Name="ChomperSpitter_FT_Walk" ID="{6E18D8ED-3A9D-441B-BB92-76694EA03E65}" WorkUnitID="{923BF706-604F-4FE2-AC08-7D9AFAAC056E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ChomperSpitter_Voice_Idle" ID="{7E418337-8514-424D-93D0-A1F1D7B64604}">
+					<ChildrenList>
+						<Action Name="" ID="{B6B554D3-2510-45B5-81D1-59DB25271C5F}" ShortID="420984819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChomperSpitter_Voice_Idle" ID="{4BFC66FE-D0DE-4242-96BF-F273D9881F88}" WorkUnitID="{923BF706-604F-4FE2-AC08-7D9AFAAC056E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

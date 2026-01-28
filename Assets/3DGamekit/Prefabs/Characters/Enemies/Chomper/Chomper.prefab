@@ -3551,7 +3551,7 @@ Transform:
   - {fileID: 4998087950247418}
   - {fileID: 2235064360643629422}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -148.75801, z: 0}
 --- !u!95 &95449222272042074
 Animator:
@@ -3734,15 +3734,10 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1c5168fe7ab75214ab9654c3d3ac25f6,
       type: 2}
-  eventChomperFTRun:
+  eventFT:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8f82a98aa5f72994199953900ec98ba5,
-      type: 2}
-  eventChomperFTWalk:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8234d564a7c80c84fbac9797e0242ca0,
+    WwiseObjectReference: {fileID: 11400000, guid: 26644674a739ddc4e8b21021c0159955,
       type: 2}
   eventChomperVoiceAttack:
     idInternal: 0

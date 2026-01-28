@@ -676,28 +676,28 @@ ModelImporter:
       curves: []
       events:
       - time: 0.04663212
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.158719
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.6632124
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.81347156
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

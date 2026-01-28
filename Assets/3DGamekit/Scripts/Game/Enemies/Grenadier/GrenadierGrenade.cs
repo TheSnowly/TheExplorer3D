@@ -13,6 +13,13 @@ namespace Gamekit3D
             MOST_DIRECT
         }
 
+        public enum ProjectileSoundType
+        {
+            GRENADIER,
+            SPITTER
+        }
+
+        public ProjectileSoundType projectileSoundType;
         public ShotType shotType;
         public float projectileSpeed;
         public int damageAmount = 1;
@@ -59,6 +66,12 @@ namespace Gamekit3D
 
             m_Shooter = shooter;
 
+            switch (projectileSoundType)
+            {
+                case ProjectileSoundType.SPITTER:
+                    GetComponent<SpitterSpitAudioManager>().AudioSpitterProjectileLP();
+                    break;
+            }
 
             m_RigidBody.velocity = GetVelocity(target);
             m_RigidBody.AddRelativeTorque(Vector3.right * -5500.0f);
@@ -90,7 +103,17 @@ namespace Gamekit3D
             {
                 explosionPlayer.transform.SetParent(null);
                 explosionPlayer.PlayRandomClip();
-                GrenadierAudioWwise.Instance.Grenadier_BallExplosion_Play(gameObject);
+                
+                switch (projectileSoundType)
+                {
+                    case ProjectileSoundType.GRENADIER:
+                        GrenadierAudioWwise.Instance.Grenadier_BallExplosion_Play(gameObject);
+                        break;
+
+                    case ProjectileSoundType.SPITTER:
+                        GetComponent<SpitterSpitAudioManager>().AudioSpitterProjectileImpact(gameObject);
+                        break;
+                }
             }
 
             int count = Physics.OverlapSphereNonAlloc(transform.position, explosionRadius, m_ExplosionHitCache,
@@ -139,7 +162,13 @@ namespace Gamekit3D
         {
             if (bouncePlayer != null)
                 bouncePlayer.PlayRandomClip(); 
-            GrenadierAudioWwise.Instance.Grenadier_BallBounce_Play(gameObject);
+
+            switch(projectileSoundType)
+            {
+                case ProjectileSoundType.GRENADIER:
+                    GrenadierAudioWwise.Instance.Grenadier_BallBounce_Play(gameObject);
+                    break;
+            }
         }
 
         private Vector3 GetVelocity(Vector3 target)

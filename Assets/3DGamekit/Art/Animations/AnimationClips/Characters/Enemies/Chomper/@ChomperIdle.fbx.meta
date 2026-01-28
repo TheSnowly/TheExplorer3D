@@ -678,120 +678,120 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.31155777
-        functionName: AudioChomperFTWalk
+      - time: 0.2978395
+        functionName: AudioVoiceIdle
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
-      - time: 0.32160804
-        functionName: AudioChomperFTWalk
+      - time: 0.31155777
+        functionName: AudioFT
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.3230285
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.397878
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.4096929
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.42055804
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.49664953
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.5297936
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.54053617
-        functionName: PlayStep
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.6319937
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.66432166
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.68676746
-        functionName: AudioChomperFTWalk
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.7020103
-        functionName: AudioChomperFTWalk
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 1
-        messageOptions: 0
-      - time: 0.95293176
-        functionName: AudioChomperFTWalk
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 1
-        messageOptions: 0
-      - time: 0.97688437
-        functionName: AudioChomperFTWalk
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.9944722
-        functionName: AudioChomperFTWalk
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 1
-        messageOptions: 0
-      - time: 0.2978395
-        functionName: AudioChomperVoiceIdle
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.80864197
-        functionName: AudioChomperVoiceIdle
+        functionName: AudioVoiceIdle
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.95293176
+        functionName: AudioFT
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.97688437
+        functionName: AudioFT
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9944722
+        functionName: AudioFT
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

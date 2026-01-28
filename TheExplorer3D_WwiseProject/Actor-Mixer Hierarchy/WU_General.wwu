@@ -5,9 +5,14 @@
 			<ChildrenList>
 				<ActorMixer Name="General" ID="{6EA85C33-5E3F-4B7A-BF00-5A939D4865EC}" ShortID="597259427">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_Small" ID="{9E93EA7D-4390-482C-8550-B613D987724E}" WorkUnitID="{18B7BC19-DDCC-40BE-A79E-3D8189109DE7}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
 						</Reference>
@@ -320,6 +325,153 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<RandomSequenceContainer Name="ChomperSpitter_Voice_Idle" ID="{4BFC66FE-D0DE-4242-96BF-F273D9881F88}" ShortID="453964259">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EE63D6EF-90AE-4ABD-8447-4F2BFC568FC5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Small" ID="{9E93EA7D-4390-482C-8550-B613D987724E}" WorkUnitID="{18B7BC19-DDCC-40BE-A79E-3D8189109DE7}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Chomper" ID="{8AA710AF-ED55-4825-A93B-E9917F7DA8D6}" WorkUnitID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_ChomperSpitter_Voice_Idle_01" ID="{88D8EE55-1069-4F18-8A72-EC645D2A93FE}" ShortID="876322032">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Chomper_Voice_Idle_01" ID="{7C77490B-3F52-4B7B-9850-71187BE9B7EE}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper\SFX_Chomper_Voice_Idle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="791821750"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Chomper_Voice_Idle_01" ID="{7C77490B-3F52-4B7B-9850-71187BE9B7EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ChomperSpitter_Voice_Idle_02" ID="{63012A5C-D570-45B5-A199-114087E0E990}" ShortID="21519242">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Chomper_Voice_Idle_02" ID="{E636A084-B1C6-4BE5-B22B-98B9DFB42680}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper\SFX_Chomper_Voice_Idle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="345224184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Chomper_Voice_Idle_02" ID="{E636A084-B1C6-4BE5-B22B-98B9DFB42680}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ChomperSpitter_Voice_Idle_03" ID="{B5EF864C-3713-484B-B64F-224E115E07EA}" ShortID="956305789">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Chomper_Voice_Idle_03" ID="{8EED960F-2BEA-42A1-91B3-96242948606C}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper\SFX_Chomper_Voice_Idle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="192278567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Chomper_Voice_Idle_03" ID="{8EED960F-2BEA-42A1-91B3-96242948606C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ChomperSpitter_Voice_Idle_04" ID="{78A5DDF4-6755-4AA7-B1A9-E872C065139F}" ShortID="353827010">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Chomper_Voice_Idle_04" ID="{259D97FF-1AED-410F-B502-90F453CD61A0}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper\SFX_Chomper_Voice_Idle_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="172719898"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Chomper_Voice_Idle_04" ID="{259D97FF-1AED-410F-B502-90F453CD61A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_ChomperSpitter_Voice_Idle_05" ID="{6ADC6219-8DF0-49F5-89AA-77FFC1D47AFF}" ShortID="172405215">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{448D431F-7C7C-49C1-AD18-372A20AA735D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Chomper_Voice_Idle_05" ID="{897E5EDB-F909-4399-BEA6-460379996B55}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper\SFX_Chomper_Voice_Idle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="614883577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Chomper_Voice_Idle_05" ID="{897E5EDB-F909-4399-BEA6-460379996B55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

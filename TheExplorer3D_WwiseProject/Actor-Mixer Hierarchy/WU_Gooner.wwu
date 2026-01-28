@@ -5,9 +5,14 @@
 			<ChildrenList>
 				<ActorMixer Name="Gooner" ID="{42A3AA90-991A-4836-8477-45C0887DC31C}" ShortID="422760675">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_Small" ID="{9E93EA7D-4390-482C-8550-B613D987724E}" WorkUnitID="{18B7BC19-DDCC-40BE-A79E-3D8189109DE7}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>
 						</Reference>
@@ -308,6 +313,11 @@
 								<Sound Name="SFX_Spitter_Projectile_LP" ID="{E3B9FEB5-AB09-4FA4-B0A9-C25303D32626}" ShortID="117873560">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

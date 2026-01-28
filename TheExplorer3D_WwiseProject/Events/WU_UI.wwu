@@ -6,6 +6,96 @@
 				<Property Name="Color" Type="int16" Value="24"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_UI_MouseOver" ID="{1B1728F5-FC19-42A7-98F9-75DA4E93204D}">
+					<ChildrenList>
+						<Action Name="" ID="{E17A1CF3-9147-43FC-80F8-678E2CC05957}" ShortID="462422914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_MouseOver" ID="{ED6CC1EB-2BBA-4308-8AE8-33E84F76DECC}" WorkUnitID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Click" ID="{A51A9633-C9F5-46E2-8FF7-3FAD03401ED2}">
+					<ChildrenList>
+						<Action Name="" ID="{D9AC1F18-C817-465A-B704-546972507CE3}" ShortID="499710143">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Clickpositive" ID="{82C26F2F-654D-407D-A61A-70C656B8E24B}" WorkUnitID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_MenuOpen" ID="{9434835F-F5EB-4DFB-A201-34FEBF1DAB51}">
+					<ChildrenList>
+						<Action Name="" ID="{E02C269B-21D9-4782-9C35-86F7675C2A7C}" ShortID="253659284">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_MenuOpen" ID="{0D8826EB-5AA4-4D21-8CE1-4E19CE3578F8}" WorkUnitID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_MenuClose" ID="{8F99351F-6848-40E9-A2F8-4AB000B092BB}">
+					<ChildrenList>
+						<Action Name="" ID="{1410161C-88EE-4E16-9E04-17A859AE21F1}" ShortID="412372615">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_MenuClose" ID="{DF118868-1E28-49D0-AEB4-DC8207A6C8FD}" WorkUnitID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_DialogueOpen" ID="{52FA86EA-027C-46F4-AC1D-7B837D34C50C}">
+					<ChildrenList>
+						<Action Name="" ID="{6F602460-EE7D-4CF2-9096-0D9FE48C1583}" ShortID="1003734005">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_DialoguePopUp" ID="{81D23EE7-DD74-4480-B1E1-2351796C4A5D}" WorkUnitID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_DialogueClose" ID="{FE7074E5-4AA6-49A6-BC1A-F1C230B11DAC}">
+					<ChildrenList>
+						<Action Name="" ID="{7F9612E9-5839-4EA4-9678-A9F1CA6D6CAA}" ShortID="107731587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_DialogueClose" ID="{4F2D6BE8-E777-4078-A74B-DF35A842313E}" WorkUnitID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Slider" ID="{BBC1471E-0BF8-4901-9601-026A49A6B835}">
+					<ChildrenList>
+						<Action Name="" ID="{B4597F12-36BC-444E-BADA-4E6407DD4666}" ShortID="756657732">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Slider" ID="{D22B153C-3ECE-44C6-A854-8F2F486D8B70}" WorkUnitID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Back" ID="{ECA19BC3-1141-47A2-9B08-D880C7FE0A99}">
+					<ChildrenList>
+						<Action Name="" ID="{25631A0A-E04E-4500-B1FB-9E3CCE2F8127}" ShortID="358514981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Back" ID="{86B289CF-EFC1-47A0-9F71-237E288DC518}" WorkUnitID="{97ED6DA2-7E88-4993-8FF2-5AA33E0173CB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

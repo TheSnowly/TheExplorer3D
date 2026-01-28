@@ -70,6 +70,17 @@ namespace Gamekit3D
         {
             if (m_InPause && Time.timeScale > 0 || !m_InPause && ScreenFader.IsFading)
                 return;
+            
+            if (!m_InPause)
+            {
+                // on ouvre le menu pause
+                UIAudioWwise.Instance.UI_MenuOpen_Play();
+            }
+            else
+            {
+                // on ferme le menu pause
+                UIAudioWwise.Instance.UI_MenuClose_Play();
+            }
 
             if (!alwaysDisplayMouse)
             {
@@ -96,7 +107,7 @@ namespace Gamekit3D
                 PlayerInput.Instance.GainControl();
             else
                 PlayerInput.Instance.ReleaseControl();
-
+            
             Time.timeScale = m_InPause ? 1 : 0;
 
             if (pauseCanvas)

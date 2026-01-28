@@ -6,6 +6,15 @@
 				<Property Name="Color" Type="int16" Value="25"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="UI" ID="{59697FF5-F0CB-4426-ADDE-EFF94A0ED21E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="WU_UI" ID="{1AF4E83D-9DE4-4991-A4CF-481310FB92B8}" WorkUnitID="{1AF4E83D-9DE4-4991-A4CF-481310FB92B8}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -16,6 +16,11 @@
 							<ObjectRef Name="SFX" ID="{EBA4C8A3-328C-4B2B-B9CA-010C2C9AEFD9}" WorkUnitID="{203FAC4C-312F-42AA-90AD-91F3B2B00A54}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="WU_SFX_Global" ID="{8A026ABF-C374-4CD5-B955-8E507BA06E25}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_SFX_Level_01" ID="{2B9287DB-2559-4084-9B51-168736244660}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_SFX_Level_02" ID="{836B463E-DDD0-46B5-A0F1-A54F530F66F0}" PersistMode="Reference"/>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

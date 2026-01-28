@@ -12,6 +12,8 @@ public class ChomperAudioManager : MonoBehaviour
     public AK.Wwise.Event eventChomperVoiceIdle;
     public AK.Wwise.Event eventChomperVoiceSpotted;
 
+    protected bool isDead = false;
+
     public void AudioChomperAttackBite()
     {
         eventChomperAttackBite.Post(gameObject);
@@ -19,12 +21,16 @@ public class ChomperAudioManager : MonoBehaviour
 
     public void AudioChomperAttackCharge()
     {
-        eventChomperAttackCharge.Post(gameObject);
+        if (!isDead)
+        {
+            eventChomperAttackCharge.Post(gameObject);
+        }
     }
 
     public void AudioChomperDeath()
     {
         eventChomperDeath.Post(gameObject);
+        isDead = true;
     }
 
     public void AudioFT()

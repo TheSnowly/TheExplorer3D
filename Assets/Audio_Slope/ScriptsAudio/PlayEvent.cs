@@ -6,15 +6,25 @@ public class PlayEvent : MonoBehaviour
 {
     public AK.Wwise.Event eventToPlay;
     public float timeToWait = 0f;
+    public bool PlayOnce = true;
+
+    private bool isAlowedToPlay = true;
 
     public void PlayAudioEvent()
     {
-        StartCoroutine(Wait());
+        if (isAlowedToPlay)
+        {
+            StartCoroutine(Wait());
+        }
     }
 
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(timeToWait);
         eventToPlay.Post(gameObject);
+        if (PlayOnce) 
+        { 
+            isAlowedToPlay = false;    
+        }
     }
 }

@@ -1,8 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	204302740	SFX_Switch_LP			\Default Work Unit\WU_SFX\WU_SFX_Global\SFX_Switch_LP	
+	1109021666	SFX_Door_Rock_LP			\Default Work Unit\WU_SFX\WU_SFX_Global\SFX_Door_Rock_LP	
 	1351645771	SFX_Button_Activate			\Default Work Unit\WU_SFX\WU_SFX_Global\SFX_Button_Activate	
 	2141156759	SFX_Chest_Open			\Default Work Unit\WU_SFX\WU_SFX_Global\SFX_Chest_Open	
 	3337873956	SFX_Button_LP			\Default Work Unit\WU_SFX\WU_SFX_Global\SFX_Button_LP	
 	3699855482	SFX_Crate_Break			\Default Work Unit\WU_SFX\WU_SFX_Global\SFX_Crate_Break	
+	4052445243	SFX_Switch_Activate			\Default Work Unit\WU_SFX\WU_SFX_Global\SFX_Switch_Activate	
+	4074244742	SFX_Door_Rock_Stop			\Default Work Unit\WU_SFX\WU_SFX_Global\SFX_Door_Rock_Stop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	24890953	SFX_Button_Activate_01	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Button_Activate_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Button\SFX_Button_Activate\SFX_Button_Activate_01		153134
@@ -18,6 +22,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	350775963	SFX_Chest_Open_02	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Chest_Open_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Chest_Open\SFX_Chest_Open_02		155786
 	370966801	SFX_Chest_Open_03	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Chest_Open_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Chest_Open\SFX_Chest_Open_03		180246
 	380336703	SFX_Crate_Break_03	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Crate_Break_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Crate_Break\SFX_Crate_Break_03		89696
+	705945804	SFX_Switch_Activate_02	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Switch_Activate_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Switch\SFX_Switch_Activate\SFX_Switch_Activate_02		150912
+	739504718	SFX_Switch_Activate_03	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Switch_Activate_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Switch\SFX_Switch_Activate\SFX_Switch_Activate_03		150912
+	826344354	SFX_PAD_Switch_LP	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_PAD_Switch_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Switch\SFX_PAD_Switch_LP		3275068
+	836433951	SFX_Door_Rock_LP	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Door_Rock_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Door_Rock\SFX_Door_Rock_LP		1430496
+	849601338	SFX_Door_Rock_Stop	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Door_Rock_Stop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Door_Rock\SFX_Door_Rock_Stop		252896
+	860382642	SFX_Switch_Activate_01	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Switch_Activate_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Switch\SFX_Switch_Activate\SFX_Switch_Activate_01		150912
 	933982242	SFX_MC_Hit_02	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\Chomper\SFX_MC_Hit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MC\MC\MC_Attack\MC_Hit\SFX_MC_Hit_02		38880
 	963640992	SFX_MC_Hit_01	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\Chomper\SFX_MC_Hit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_MC\MC\MC_Attack\MC_Hit\SFX_MC_Hit_01		38880
 	987019140	SFX_Crate_Break_02	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Crate_Break_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Global\SFX_Global\SFX_Crate_Break\SFX_Crate_Break_02		92666

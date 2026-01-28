@@ -22,7 +22,9 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SFX_Level_02" ID="{DD0D960C-7591-4723-AE84-40A03D07FCD2}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="WU_SFX_Level_02" ID="{15EE8EFC-2B4F-45F1-A7EB-91CB47CA27A3}" WorkUnitID="{15EE8EFC-2B4F-45F1-A7EB-91CB47CA27A3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

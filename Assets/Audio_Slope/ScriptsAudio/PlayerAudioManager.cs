@@ -22,7 +22,7 @@ public class PlayerAudioManager : MonoBehaviour
     void SetFTSurfaceType()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down * 0.05f), out hit))
         {
             AudioSurfaceTypeEnum surfaceType = hit.collider.GetComponent<AudioSurfaceTypeEnum>();
             if (surfaceType == null) return;

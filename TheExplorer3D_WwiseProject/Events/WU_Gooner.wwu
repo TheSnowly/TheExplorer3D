@@ -34,6 +34,28 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{15C060D1-1739-4A6B-97A3-0DA3168DB155}" ShortID="320742422">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BD5FEF7A-1758-44B7-9A43-F8ADF5F4E26A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Spitter_Projectile_LP" ID="{E3B9FEB5-AB09-4FA4-B0A9-C25303D32626}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Spitter_Projectile_Impact" ID="{9B33B06D-7051-44D6-852B-7641365BD089}">

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	828498785	SFX_MovingPlatform_Stop			\Default Work Unit\WU_SFX\WU_SFX_Level_02\SFX_MovingPlatform_Stop	
+	1162769994	SFX_Door_Rock_Small_LP			\Default Work Unit\WU_SFX\WU_SFX_Level_02\SFX_Door_Rock_Small_LP	
+	1168122405	SFX_MovingPlatform_LP			\Default Work Unit\WU_SFX\WU_SFX_Level_02\SFX_MovingPlatform_LP	
+	2707768149	SFX_Acid_LP			\Default Work Unit\WU_SFX\WU_SFX_Level_02\SFX_Acid_LP	
+	3618125454	SFX_Door_Rock_Small_Stop			\Default Work Unit\WU_SFX\WU_SFX_Level_02\SFX_Door_Rock_Small_Stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	669657082	SFX_Door_Rock_Small_LP	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Boor_Rock_Small_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Level_02\SFX_Level_02\SFX_Door_Rock_Small\SFX_Door_Rock_Small_LP		1430496
+	776411050	SFX_MovingPlatform_Stop	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_MovingPlatform_Stop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Level_02\SFX_Level_02\SFX_MovingPlatform\SFX_MovingPlatform_Stop		259744
+	923233485	SFX_Door_Rock_Small_Stop	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Boor_Rock_Small_Stop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Level_02\SFX_Level_02\SFX_Door_Rock_Small\SFX_Door_Rock_Small_Stop		112096
+	983405885	SFX_Acid_LP	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Acid_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Level_02\SFX_Level_02\SFX_Acid_LP		5984096
+	1008826816	SFX_MovingPlatform_LP	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_MovingPlatform_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Level_02\SFX_Level_02\SFX_MovingPlatform\SFX_MovingPlatform_LP		2016096
+

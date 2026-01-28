@@ -20,6 +20,7 @@ namespace Gamekit3D.GameCommands
         public SendGameCommand OnStartCommand, OnStopCommand;
 
         public AK.Wwise.Event onStartAudio, onEndAudio;
+        public GameObject AudioSource;
 
         [Range(0, 1)]
         public float previewPosition;
@@ -27,12 +28,13 @@ namespace Gamekit3D.GameCommands
         float position = 0f;
         float direction = 1f;
 
+        protected bool m_playOnce = true;
         protected Platform m_Platform;
 
         [ContextMenu("Test Start Audio")]
         void TestPlayAudio()
         {
-            if (onStartAudio != null) onStartAudio.Post(gameObject);
+            if (onStartAudio != null) onStartAudio.Post(AudioSource);
         }
 
         protected override void Awake()
@@ -44,9 +46,10 @@ namespace Gamekit3D.GameCommands
 
         public override void PerformInteraction()
         {
+            m_playOnce = true;
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
-            if (onStartAudio != null) onStartAudio.Post(gameObject);
+            if (onStartAudio != null) onStartAudio.Post(AudioSource);
         }
 
         public void FixedUpdate()
@@ -88,11 +91,20 @@ namespace Gamekit3D.GameCommands
         void LoopOnce()
         {
             position = Mathf.Clamp01(time);
+
+            if (m_playOnce)
+            {
+                if (position >= 0.7f)
+                {
+                    if (onEndAudio != null) onEndAudio.Post(AudioSource);
+                    m_playOnce = false;
+                }
+            }
+
             if (position >= 1)
             {
                 enabled = false;
                 if (OnStopCommand != null) OnStopCommand.Send();
-                if (onEndAudio != null) onEndAudio.Post(gameObject);
                 direction *= -1;
             }
         }

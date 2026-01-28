@@ -54,6 +54,68 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SFX_Door_Rock_Stop" ID="{31B6C663-D77B-4D52-A302-9ADDC5ED6F6F}">
+					<ChildrenList>
+						<Action Name="" ID="{23AF93B6-EB68-4CB7-9296-990F1EFA4E19}" ShortID="653942794">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Door_Rock_Stop" ID="{6AAFF09F-440C-40AF-9C2A-8778BFB8C507}" WorkUnitID="{8A026ABF-C374-4CD5-B955-8E507BA06E25}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{30DC5775-BB5D-4CBD-92F1-71AECDD41E39}" ShortID="535509858">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Door_Rock_LP" ID="{20F1F31C-6C1C-432D-B540-B5442DE445E6}" WorkUnitID="{8A026ABF-C374-4CD5-B955-8E507BA06E25}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Door_Rock_LP" ID="{A4C26EC9-8E02-4B6A-8A24-92D618E0BE4B}">
+					<ChildrenList>
+						<Action Name="" ID="{08569166-D949-4ECC-A937-E9A5D1F1B4E5}" ShortID="572073693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Door_Rock_LP" ID="{20F1F31C-6C1C-432D-B540-B5442DE445E6}" WorkUnitID="{8A026ABF-C374-4CD5-B955-8E507BA06E25}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Switch_LP" ID="{BC44C698-FB66-4D02-B520-D6A3CA1ADCE7}">
+					<ChildrenList>
+						<Action Name="" ID="{64E30056-DED5-43B4-B394-ED77463FC9DE}" ShortID="983280030">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PAD_Switch_LP" ID="{FDB15A45-1A5C-413F-BFB3-49DE341D173C}" WorkUnitID="{8A026ABF-C374-4CD5-B955-8E507BA06E25}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Switch_Activate" ID="{02DF9900-25D9-487D-BE52-10A07B2D8FD5}">
+					<ChildrenList>
+						<Action Name="" ID="{0261BD16-F732-481D-B3D3-F2616F8BDDD9}" ShortID="443024242">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Switch_Activate" ID="{CB65F51B-259E-464D-8540-A60E24138997}" WorkUnitID="{8A026ABF-C374-4CD5-B955-8E507BA06E25}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0AB635BC-3055-4934-ACBC-618A8F42EE00}" ShortID="602234131">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Hit" ID="{0B0EC187-2ACD-4675-9013-E7A1ADDFF723}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

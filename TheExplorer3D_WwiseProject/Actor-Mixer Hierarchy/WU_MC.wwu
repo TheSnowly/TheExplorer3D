@@ -328,6 +328,9 @@
 												</Property>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
 												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{3DF49651-9B70-4996-A84A-528504801577}">
@@ -3115,6 +3118,9 @@
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="10"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{28096DF0-25B5-48A8-B1C9-88DD79493B56}">
@@ -3968,6 +3974,13 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="MC_Attack" ID="{8A62134A-599A-4D1B-9ED2-8500F257A6EB}" ShortID="1044834257">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B286DF5B-86BB-4A77-933F-9BFD8DACF853}"/>

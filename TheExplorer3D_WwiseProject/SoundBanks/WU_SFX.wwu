@@ -6,6 +6,23 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="SFX_Global" ID="{376A5883-E2EC-47B0-B498-797499290B66}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX_Level_01" ID="{009243A7-657C-455C-8E61-444EFD76BDAD}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX_Level_02" ID="{DD0D960C-7591-4723-AE84-40A03D07FCD2}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4EDF55C4-01B6-426F-9A33-1DE19C3777A0}" SchemaVersion="110" RootDocumentID="{3B1A04E6-881B-4285-9218-EEE5ED1B4C61}" ParentDocumentID="{3B1A04E6-881B-4285-9218-EEE5ED1B4C61}">
+	<GameParameters>
+		<WorkUnit Name="UI_WU" ID="{4EDF55C4-01B6-426F-9A33-1DE19C3777A0}" OwnerID="{3B1A04E6-881B-4285-9218-EEE5ED1B4C61}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="RTPC_SliderVolumeMUS" ID="{96D9F2F0-0828-4970-95A8-8DAB89FBC762}"/>
+				<GameParameter Name="RTPC_SliderVolumeSFX" ID="{B4BFA3D4-3B2E-4053-B2A9-AAC8135CCB63}"/>
+				<GameParameter Name="RTPC_SliderVolumeMaster" ID="{1D0AF571-C9DE-44DE-8CF4-D29B183A938D}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

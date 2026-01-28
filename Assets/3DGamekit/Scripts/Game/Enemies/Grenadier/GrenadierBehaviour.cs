@@ -118,7 +118,7 @@ namespace Gamekit3D
         {
             m_EnemyController.animator.SetBool(hashInPursuitParam, true);
             GrenadierAudioWwise.Instance.SetVoxPursuit();
-            GrenadierAudioWwise.Instance.Grenadier_Vox_Play();
+            GrenadierAudioWwise.Instance.Grenadier_Vox_Start();
         }
 
         public void StopPursuit()
@@ -153,7 +153,7 @@ namespace Gamekit3D
         public void ActivateShield()
         {
             GrenadierAudioWwise.Instance.SetVoxShield();
-            GrenadierAudioWwise.Instance.Grenadier_Vox_Play();
+            GrenadierAudioWwise.Instance.Grenadier_Vox_Start();
             shield.SetActive(true);
             m_ShieldActivationTime = 3.0f;
             m_Damageable.SetColliderState(false);

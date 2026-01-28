@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}" SchemaVersion="110" RootDocumentID="{448D431F-7C7C-49C1-AD18-372A20AA735D}" ParentDocumentID="{448D431F-7C7C-49C1-AD18-372A20AA735D}">
+<WwiseDocument Type="WorkUnit" ID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}" SchemaVersion="110">
 	<Busses>
-		<WorkUnit Name="WU_ENEMIES" ID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+		<WorkUnit Name="WU_ENEMIES" ID="{F5CF03D1-FE89-47D2-B30C-CC9E19842E54}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="23"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -18,6 +18,45 @@
 						<Bus Name="Chomper" ID="{8AA710AF-ED55-4825-A93B-E9917F7DA8D6}"/>
 						<Bus Name="General" ID="{659558DF-A208-48B4-BFCB-CA9A962D917E}"/>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{04684357-EC49-488A-A345-5D68F0A29BFC}" ShortID="988111630">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_SliderVolumeSFX" ID="{B4BFA3D4-3B2E-4053-B2A9-AAC8135CCB63}" WorkUnitID="{4EDF55C4-01B6-426F-9A33-1DE19C3777A0}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{0BD11B42-28AE-4A52-B63B-523BEA5800D9}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -70,7 +70,20 @@
 							<Position X="4" Y="1"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SliderVolumeSFX" ID="{B4BFA3D4-3B2E-4053-B2A9-AAC8135CCB63}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SliderVolumeMaster" ID="{1D0AF571-C9DE-44DE-8CF4-D29B183A938D}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SliderVolumeMUS" ID="{96D9F2F0-0828-4970-95A8-8DAB89FBC762}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="SW_AttackMelee" ID="{43F2562A-B4A6-4F6E-8E21-D09116458CBF}"/>

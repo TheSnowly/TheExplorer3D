@@ -65,30 +65,30 @@ public class GrenadierAudioWwise : MonoBehaviour
     {
         SW_Shield.SetValue(AS_GrenadierVox);
     }
-    public void Grenadier_DeathAnim_Play()
+    public void Grenadier_DeathAnim_Start()
     {
         SW_Death.SetValue(AS_GrenadierVox);
         Grenadier_DeathAnim.Post(gameObject);
     }
     
-    public void Grenadier_TakeDamage_Play()
+    public void Grenadier_TakeDamage_Start()
     {
         SW_TakeDamage.SetValue(AS_GrenadierVox);
         Grenadier_Vox.Post(AS_GrenadierVox);
         Grenadier_TakeDamage.Post(gameObject);
     }
     
-    public void Grenadier_Vox_Play()
+    public void Grenadier_Vox_Start()
     {
         Grenadier_Vox.Post(AS_GrenadierVox);
     }
     
-    public void Grenadier_RangeAttack_Play()
+    public void Grenadier_RangeAttack_Start()
     {
         Grenadier_RangeAttack.Post(gameObject);
     }
     
-    public void Grenadier_ShockWaveAttack_Play()
+    public void Grenadier_ShockWaveAttack_Start()
     {
         Grenadier_ShockWaveAttack.Post(gameObject);
     }
@@ -103,17 +103,17 @@ public class GrenadierAudioWwise : MonoBehaviour
         Grenadier_BallBounce.Post(emitter);
     }
     
-    public void Grenadier_FootstepsSoft_Play()
+    public void Grenadier_FootstepsSoft_Start()
     {
         Grenadier_FootstepsSoft.Post(FootLocationRight);
     }
     
-    public void Grenadier_TurnAnim_Play()
+    public void Grenadier_TurnAnim_Start()
     {
         Grenadier_TurnAnim.Post(AS_GrenadierVox);
     }
     
-    public void Grenadier_Footsteps_Play(int value)
+    public void Grenadier_Footsteps_Start(int value)
     {
         if (value==0)
         {
@@ -126,7 +126,7 @@ public class GrenadierAudioWwise : MonoBehaviour
         }
     }
     
-    public void Grenadier_FootstepsMelee_Play(int value)
+    public void Grenadier_FootstepsMelee_Start(int value)
     {
         if (value==0)
         {
@@ -139,7 +139,7 @@ public class GrenadierAudioWwise : MonoBehaviour
         }
     }
     
-    public void Grenadier_AttackMeleeCore_Play()
+    public void Grenadier_AttackMeleeCore_Start()
     {
         SW_AttackMelee.SetValue(gameObject);
         Grenadier_AttackMeleeCore.Post(gameObject);
@@ -155,7 +155,7 @@ public class GrenadierAudioWwise : MonoBehaviour
         Grenadier_IdleVox.Post(gameObject);
     }
     
-    public void Grenadier_PresencesWalk_Play()
+    public void Grenadier_PresencesWalk_Start()
     {
         Grenadier_PresencesWalk.Post(gameObject);
     }

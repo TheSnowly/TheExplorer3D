@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{52B8D0E7-DCA3-4C6A-BAB0-34C468B8C8A7}" SchemaVersion="110" RootDocumentID="{448D431F-7C7C-49C1-AD18-372A20AA735D}" ParentDocumentID="{448D431F-7C7C-49C1-AD18-372A20AA735D}">
+<WwiseDocument Type="WorkUnit" ID="{52B8D0E7-DCA3-4C6A-BAB0-34C468B8C8A7}" SchemaVersion="110">
 	<Busses>
-		<WorkUnit Name="WU_UI" ID="{52B8D0E7-DCA3-4C6A-BAB0-34C468B8C8A7}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+		<WorkUnit Name="WU_UI" ID="{52B8D0E7-DCA3-4C6A-BAB0-34C468B8C8A7}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="25"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Bus Name="UI" ID="{B09EF835-7D1E-44E7-811B-FB23B72CF37D}"/>
+				<Bus Name="UI" ID="{B09EF835-7D1E-44E7-811B-FB23B72CF37D}">
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{36B34249-AEE9-4F37-ABBD-3A82ECB04A20}" ShortID="1038761780">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_SliderVolumeSFX" ID="{B4BFA3D4-3B2E-4053-B2A9-AAC8135CCB63}" WorkUnitID="{4EDF55C4-01B6-426F-9A33-1DE19C3777A0}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{A501D5DE-9D09-4925-881A-BCB138548473}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

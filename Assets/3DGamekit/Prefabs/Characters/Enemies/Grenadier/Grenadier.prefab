@@ -95462,8 +95462,8 @@ GameObject:
   - component: {fileID: 195657170040882262}
   - component: {fileID: 114161401988340100}
   - component: {fileID: 114516983396116286}
-  - component: {fileID: 3656223234715828630}
   - component: {fileID: 6063050599954478494}
+  - component: {fileID: 2380698120298370989}
   m_Layer: 23
   m_Name: Grenadier
   m_TagString: Untagged
@@ -95491,7 +95491,7 @@ Transform:
   - {fileID: 4485494240124192}
   - {fileID: 7106757621574863147}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
 --- !u!95 &95408953468183704
 Animator:
@@ -95666,162 +95666,6 @@ MonoBehaviour:
     - gameObject: {fileID: 1776379760232538}
       state: 1
       particlesystem: {fileID: 0}
---- !u!114 &3656223234715828630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878432194002958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8634aa176501dda4b920975f1e5938c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Grenadier_Footsteps:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 58026ad21dae8634780c756db2f9b741,
-      type: 2}
-  Grenadier_FootstepsMelee:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: efbb9701dff9df545957702db2753163,
-      type: 2}
-  Grenadier_AttackMeleeCore:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7f3301029a3320d4e8baae67508d429c,
-      type: 2}
-  Grenadier_IdleBreath:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 20fda2a7642cc67418d7a82be810ca63,
-      type: 2}
-  Grenadier_IdleMetal:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 25d2d0d1ffb588946b3c66f6a773cdb7,
-      type: 2}
-  Grenadier_IdleVox:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 06628b985c92cb24c8f2d28a5441a369,
-      type: 2}
-  Grenadier_PresencesWalk:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: ba3b45a682e9f7a40856dfb9b79835de,
-      type: 2}
-  Grenadier_DeathAnim:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 498d6a337480d7444bfaa25af1dae7c1,
-      type: 2}
-  Grenadier_Vox:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 3894048ad9c294947ab4c835472fc21d,
-      type: 2}
-  Grenadier_FootstepsSoft:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: fc11464996fd7ff43a7ce88cc6cc3ee0,
-      type: 2}
-  Grenadier_TurnAnim:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 22c52b0c35c172943b4c8b2ca2899068,
-      type: 2}
-  Grenadier_LightBall_End:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 46c3187e767aaa64093f29190384b8af,
-      type: 2}
-  Grenadier_IdleBreath_Stop:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 769313ac754b47c44b723da33259f100,
-      type: 2}
-  Grenadier_TakeDamage:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: efcced2511ec24f44b313b1f49a66c89,
-      type: 2}
-  Grenadier_RangeAttack:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 95a6f994b1129214d82066abffe074d1,
-      type: 2}
-  Grenadier_BallExplosion:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1ceed61e61f04de40bf60fad5e2a212c,
-      type: 2}
-  Grenadier_BallBounce:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7ba81f928ce0c4c43b23b2a86de331dc,
-      type: 2}
-  Grenadier_ShockWaveAttack:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 700228826bcc4c54ab70e6dcbe202213,
-      type: 2}
-  FootLocationLeft: {fileID: 1914846947782772}
-  FootLocationRight: {fileID: 1690324998991952}
-  AS_GrenadierVox: {fileID: 5125144933350816430}
-  AS_SphereAudioEmitter: {fileID: 3998594316974340606}
-  AS_GrenadeRangeAttack: {fileID: 0}
-  SW_AttackMelee:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 335cb6d784e9bf54bb240fa92c05c785,
-      type: 2}
-  SW_Death:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: aca1850ddaa36b048bd7c6209b071f93,
-      type: 2}
-  SW_AttackRange_Grenade:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9dc041ce963097f43b467df1f3c0b8a3,
-      type: 2}
-  SW_AttackRange_ShockWave:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5703a65e1eb3b7243ae26f6cca71f1e1,
-      type: 2}
-  SW_Pursuit:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 89bb291864cc0d541a403836a80daa5d,
-      type: 2}
-  SW_Shield:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: aad0ac351de12a44cb4d62304c95c465,
-      type: 2}
-  SW_TakeDamage:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1a36daed772a6bf47adb60d1094bfafa,
-      type: 2}
 --- !u!114 &6063050599954478494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95847,6 +95691,18 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &2380698120298370989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878432194002958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a2e55a1f09ba744940b04e869bf76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1878574748180302
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,7 +42,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-25</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -855,7 +855,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-21</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>

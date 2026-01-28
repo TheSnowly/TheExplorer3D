@@ -10,6 +10,7 @@
 				<WorkUnit Name="WU_Champer" ID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" PersistMode="Reference"/>
 				<WorkUnit Name="WU_Gooner" ID="{62F9C524-F1CE-4788-B70C-012416606556}" PersistMode="Reference"/>
 				<WorkUnit Name="Grenadier" ID="{2689AE75-7842-4672-A4FF-EAD0924971B7}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_General" ID="{DAF0EDB5-EA15-46AE-9CCB-88BB176F9AEF}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

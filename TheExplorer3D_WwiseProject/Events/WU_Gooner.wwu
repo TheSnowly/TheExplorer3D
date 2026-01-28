@@ -1,6 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{62F9C524-F1CE-4788-B70C-012416606556}" SchemaVersion="110" RootDocumentID="{857A9DDF-BBED-47D4-B259-71C54BAA0BFB}" ParentDocumentID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}">
 	<Events>
-		<WorkUnit Name="WU_Gooner" ID="{62F9C524-F1CE-4788-B70C-012416606556}" OwnerID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" PersistMode="Nested"/>
+		<WorkUnit Name="WU_Gooner" ID="{62F9C524-F1CE-4788-B70C-012416606556}" OwnerID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Spitter_Attack_Charge" ID="{52851DED-1ED2-4AC1-AE11-A87C265F7554}">
+					<ChildrenList>
+						<Action Name="" ID="{841D05B5-8BCA-4A49-A8A3-FE397FDBDB84}" ShortID="920412457">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spitter_Attack_Charge" ID="{01E1CDE6-FD19-486E-9354-62550EA7590F}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spitter_Attack_Spit" ID="{E4A755B1-1491-4DBB-A202-1AE0A742546C}">
+					<ChildrenList>
+						<Action Name="" ID="{9BA7C788-51F9-42E2-9E8A-26827C47127B}" ShortID="347507804">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spitter_Attack_Spit" ID="{A28E39A1-3B8B-4CEB-998C-0F5F00499981}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spitter_Projectile_LP" ID="{6DAF7177-319C-49C9-B444-A53447BA8627}">
+					<ChildrenList>
+						<Action Name="" ID="{86D2B4B4-ECF8-4278-879F-D8AFBBE87C11}" ShortID="499734167">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Spitter_Projectile_LP" ID="{E3B9FEB5-AB09-4FA4-B0A9-C25303D32626}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Spitter_Projectile_LP" ID="{7BA94FBC-4CD4-45B7-AD56-A16070995BFF}">
+					<ChildrenList>
+						<Action Name="" ID="{914C43B4-208A-4A38-A77E-0B6868F15DF0}" ShortID="98583502">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Spitter_Projectile_LP" ID="{E3B9FEB5-AB09-4FA4-B0A9-C25303D32626}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spitter_Projectile_Impact" ID="{9B33B06D-7051-44D6-852B-7641365BD089}">
+					<ChildrenList>
+						<Action Name="" ID="{87B53E8D-D808-42FC-8CD6-558798FFC409}" ShortID="649721933">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spitter_Projectile_Impact" ID="{19C893F5-2F0D-4BF2-854F-BF87D5BF36FD}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spitter_Voice_Spotted" ID="{22593454-547C-4CDC-8750-390C4087AE93}">
+					<ChildrenList>
+						<Action Name="" ID="{8BA05026-D077-41AB-B96C-3F20B756DD3C}" ShortID="144273568">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spitter_Voice_Spotted" ID="{1929970D-201F-4432-B027-C18FC3C83122}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spitter_Death" ID="{AD9AEBBA-00EE-4E83-8D1F-D0F154A90B46}">
+					<ChildrenList>
+						<Action Name="" ID="{7A8E2B0A-03E7-4A39-8965-4355843A6A32}" ShortID="154401498">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spitter_Voice_Death" ID="{175B83EB-6EC6-47C9-A0B7-94CC9A438DB3}" WorkUnitID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A86CFBE7-2B2E-40DE-BD08-E64ADF819047}" ShortID="72013014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Hit" ID="{0B0EC187-2ACD-4675-9013-E7A1ADDFF723}" WorkUnitID="{278FDC81-9467-41E3-812B-142261936F6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05D4D725-BD38-4C01-B60E-C5C03A282D54}" ShortID="445206970">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChomperSpitter_Hurt" ID="{AFE06DC5-825B-43C3-919B-F1C528731017}" WorkUnitID="{923BF706-604F-4FE2-AC08-7D9AFAAC056E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

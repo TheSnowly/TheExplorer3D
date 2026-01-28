@@ -3,28 +3,6 @@
 	<Events>
 		<WorkUnit Name="WU_Champer" ID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" OwnerID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Chomper_FT_Walk" ID="{FAE24E34-5895-4B7A-8419-1212B23D7A51}">
-					<ChildrenList>
-						<Action Name="" ID="{EC687D10-223D-44CE-922E-E5DEAC7F3209}" ShortID="810632429">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Chomper_FT_Walk" ID="{B8D56A58-746D-4306-800A-247822AA8BC1}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Chomper_FT_Run" ID="{15D21E02-3D91-440E-A62A-C63194927434}">
-					<ChildrenList>
-						<Action Name="" ID="{30AE7655-58A4-4292-AE0F-5E851799276E}" ShortID="529001433">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Chomper_FT_Run" ID="{538FB5FC-1A0D-4B10-98FC-77989B74A64E}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Chomper_Attack_Bite" ID="{29AEF6E5-FA47-47A2-B614-C8BC90B6F010}">
 					<ChildrenList>
 						<Action Name="" ID="{48EDD5B3-C26A-4974-910D-23086F3F080A}" ShortID="231995621">
@@ -60,6 +38,16 @@
 				</Event>
 				<Event Name="Chomper_Death" ID="{3F09BC83-7237-4066-8E79-C5C682F0E26B}">
 					<ChildrenList>
+						<Action Name="" ID="{B9A0E8B6-CFD3-48EE-BA56-F4103D386E5C}" ShortID="108010780">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Attack_Charge" ID="{7A1CB211-6AB4-45C7-8564-89D6BDBD3235}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{644065F1-F7E1-4410-8268-57E1B4296AE8}" ShortID="800441310">
 							<PropertyList>
 								<Property Name="Delay" Type="Real64">
@@ -91,7 +79,7 @@
 						<Action Name="" ID="{8B3B62E2-68FC-4C6C-A2F5-489DF6EA4AA7}" ShortID="186775114">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Chomper_Hurt" ID="{AFE06DC5-825B-43C3-919B-F1C528731017}" WorkUnitID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}"/>
+									<ObjectRef Name="ChomperSpitter_Hurt" ID="{AFE06DC5-825B-43C3-919B-F1C528731017}" WorkUnitID="{923BF706-604F-4FE2-AC08-7D9AFAAC056E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

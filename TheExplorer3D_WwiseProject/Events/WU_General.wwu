@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DAF0EDB5-EA15-46AE-9CCB-88BB176F9AEF}" SchemaVersion="110" RootDocumentID="{857A9DDF-BBED-47D4-B259-71C54BAA0BFB}" ParentDocumentID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}">
+	<Events>
+		<WorkUnit Name="WU_General" ID="{DAF0EDB5-EA15-46AE-9CCB-88BB176F9AEF}" OwnerID="{5D0455C5-F516-40BC-AE8E-33E5EA93F967}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ChomperSpitter_FT" ID="{9293396D-1076-4B7C-B3CD-7C8ABA3B08B0}">
+					<ChildrenList>
+						<Action Name="" ID="{00442EB3-A322-42ED-9E17-7BAC6ADE34CC}" ShortID="334472200">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChomperSpitter_FT" ID="{003B94CE-A11D-4921-97EA-A121E648D32A}" WorkUnitID="{923BF706-604F-4FE2-AC08-7D9AFAAC056E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

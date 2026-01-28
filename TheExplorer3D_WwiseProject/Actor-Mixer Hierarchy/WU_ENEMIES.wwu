@@ -20,6 +20,7 @@
 						<WorkUnit Name="WU_Grenadier" ID="{6A9840C5-9C57-49FB-8C49-BEA22BBFFA4E}" PersistMode="Reference"/>
 						<WorkUnit Name="WU_Champer" ID="{EE25AF19-0C20-41FA-9B63-9DCA3498FE23}" PersistMode="Reference"/>
 						<WorkUnit Name="WU_Gooner" ID="{2E60E0EA-89E0-4079-B1CF-4489A7F0F8E5}" PersistMode="Reference"/>
+						<WorkUnit Name="WU_General" ID="{923BF706-604F-4FE2-AC08-7D9AFAAC056E}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

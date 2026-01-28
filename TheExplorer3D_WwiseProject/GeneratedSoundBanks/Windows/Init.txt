@@ -1,10 +1,13 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	14039721	Chomper			\Default Work Unit\Master Audio Bus\WU_ENEMIES\ENEMIES\Chomper	
+	133642231	General			\Default Work Unit\Master Audio Bus\WU_ENEMIES\ENEMIES\General	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\WU_SFX\SFX	
 	1117531639	AMB			\Default Work Unit\Master Audio Bus\WU_AMB\AMB	
 	1343892184	Grenadier			\Default Work Unit\Master Audio Bus\WU_ENEMIES\ENEMIES\Grenadier	
 	1551306167	UI			\Default Work Unit\Master Audio Bus\WU_UI\UI	
 	1685527061	MC			\Default Work Unit\Master Audio Bus\WU_MC\MC	
 	2242381963	ENEMIES			\Default Work Unit\Master Audio Bus\WU_ENEMIES\ENEMIES	
+	2535446860	Spitter			\Default Work Unit\Master Audio Bus\WU_ENEMIES\ENEMIES\Spitter	
 	2575231005	Grenadier Footsteps			\Default Work Unit\Master Audio Bus\WU_ENEMIES\ENEMIES\Grenadier\Grenadier Footsteps	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

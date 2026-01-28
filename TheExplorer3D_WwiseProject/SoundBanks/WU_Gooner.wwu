@@ -6,6 +6,16 @@
 				<Property Name="Color" Type="int16" Value="23"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="Spitter" ID="{8C9A3571-E7CD-4FB3-AC33-5B52173E7FC4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="WU_General" ID="{DAF0EDB5-EA15-46AE-9CCB-88BB176F9AEF}" WorkUnitID="{DAF0EDB5-EA15-46AE-9CCB-88BB176F9AEF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WU_Gooner" ID="{62F9C524-F1CE-4788-B70C-012416606556}" WorkUnitID="{62F9C524-F1CE-4788-B70C-012416606556}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

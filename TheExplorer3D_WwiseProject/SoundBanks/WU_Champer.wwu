@@ -8,7 +8,10 @@
 			</PropertyList>
 			<ChildrenList>
 				<SoundBank Name="Chomper" ID="{B9D45697-F578-4394-9EC3-2956A5D3FFEF}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="WU_Champer" ID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" WorkUnitID="{2D25389F-7B9C-4297-B184-9800A21D94B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WU_General" ID="{DAF0EDB5-EA15-46AE-9CCB-88BB176F9AEF}" WorkUnitID="{DAF0EDB5-EA15-46AE-9CCB-88BB176F9AEF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

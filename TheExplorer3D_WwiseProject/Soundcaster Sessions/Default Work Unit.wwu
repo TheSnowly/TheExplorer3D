@@ -73,7 +73,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="SW_TakeDamage" ID="{33D444C1-43B4-4719-8F11-09D6B7D7AC76}"/>
+						<CurrentSwitchRef Name="SW_AttackMelee" ID="{43F2562A-B4A6-4F6E-8E21-D09116458CBF}"/>
 						<CurrentSwitchRef Name="SW_Turn45Left" ID="{DB1C8D58-694B-416E-B6BC-12E1F8BFA414}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

@@ -8,12 +8,16 @@
 			</PropertyList>
 			<ChildrenList>
 				<SoundBank Name="SFX_Global" ID="{376A5883-E2EC-47B0-B498-797499290B66}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="WU_SFX_Global" ID="{7D991D0A-F876-486F-80E5-7C8E02D7D495}" WorkUnitID="{7D991D0A-F876-486F-80E5-7C8E02D7D495}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SFX_Level_01" ID="{009243A7-657C-455C-8E61-444EFD76BDAD}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="WU_SFX_Level_01" ID="{55853936-3C49-480E-8A8D-09DFAEA20435}" WorkUnitID="{55853936-3C49-480E-8A8D-09DFAEA20435}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

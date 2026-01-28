@@ -6,6 +6,11 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="WU_SFX_Global" ID="{7D991D0A-F876-486F-80E5-7C8E02D7D495}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_SFX_Level_01" ID="{55853936-3C49-480E-8A8D-09DFAEA20435}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_SFX_Level_02" ID="{15EE8EFC-2B4F-45F1-A7EB-91CB47CA27A3}" PersistMode="Reference"/>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

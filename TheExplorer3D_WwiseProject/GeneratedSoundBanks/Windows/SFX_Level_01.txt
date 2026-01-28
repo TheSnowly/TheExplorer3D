@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1575639246	SFX_Weapon_Loot			\Default Work Unit\WU_SFX\WU_SFX_Level_01\SFX_Weapon_Loot	
+	3855545844	SFX_Weapon_LP			\Default Work Unit\WU_SFX\WU_SFX_Level_01\SFX_Weapon_LP	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	488803230	SFX_Weapon_Loot	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_Weapon_Loot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Level_01\SFX_Level_01\SFX_Weapon\SFX_Weapon_Loot		70458
+	571908063	SFX_PAD_Weapon_LP	C:\Users\thesn\Documents\UnrealGames\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX\SFX_PAD_Weapon_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\SFX\WU_SFX_Level_01\SFX_Level_01\SFX_Weapon\SFX_PAD_Weapon_LP		3275068
+
